@@ -570,7 +570,14 @@ function setupUpdater() {
     $('update-bar').classList.remove('hidden');
   });
 
-  $('update-btn').addEventListener('click', () => window.ea.installUpdate());
+  $('update-btn').addEventListener('click', () => {
+    // Try in-place update; if the app is unsigned macOS will silently block it,
+    // so fall back to opening the GitHub releases page after 2 s.
+    window.ea.installUpdate().catch(() => {});
+    setTimeout(() => {
+      window.ea.openExternal('https://github.com/agecspnt/whisper-remote/releases/latest');
+    }, 2000);
+  });
   $('update-dismiss').addEventListener('click', () => $('update-bar').classList.add('hidden'));
 }
 

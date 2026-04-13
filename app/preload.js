@@ -15,4 +15,7 @@ contextBridge.exposeInMainWorld('ea', {
 
   // File export (save dialog)
   saveFile: (url, defaultName) => ipcRenderer.invoke('file:save', { url, defaultName }),
+
+  // Open URL in default browser
+  openExternal: (url) => ipcRenderer.invoke('shell:openExternal', url),
 });

@@ -614,7 +614,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   loadSessions();
   setInterval(loadSessions, 10000);
   loadDevices();
-  loadBrowserDevices();
   loadSettings();
   connectSubtitleWs();
 });

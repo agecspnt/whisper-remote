@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Sessions data (runtime-generated)
+sessions/
+
+# Electron build output
+app/dist/
+app/node_modules/
+
+# Misc
+=*
+*.DS_Store
+.env

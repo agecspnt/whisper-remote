@@ -1,4 +1,0 @@
-1
-00:00:00,000 --> 00:00:01,718
-你好,我是一个AI助手。Today is a great day for testing. 我们来做一个测试。This is Chinese and English mixed speech.
-你好,我是一个AI助手。Today is a great day for testing. 我们来做一个测试。This is Chinese and English mixed speech.

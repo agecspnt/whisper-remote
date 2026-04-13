@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: app
-        run: npm ci
+        run: npm install
 
       # Build universal DMG + ZIP and publish to GitHub Releases.
       # Code signing is skipped (CSC_IDENTITY_AUTO_DISCOVERY=false).

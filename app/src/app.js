@@ -85,7 +85,15 @@ async function connectToServer() {
   }
   clearInterval(state._subtitlePingTimer);
 
-  await checkHealth();
+  try {
+    await api('GET', '/api/health');
+    $('status-dot').className = 'dot ok';
+    toast('已连接到服务器', 'success');
+  } catch {
+    $('status-dot').className = 'dot err';
+    toast('无法连接：' + url, 'error');
+    return;
+  }
   connectSubtitleWs();
   loadSessions();
   loadDevices();

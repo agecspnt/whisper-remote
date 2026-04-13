@@ -69,8 +69,11 @@ async function api(method, path, body) {
 
 // ── Server connection ──────────────────────────────────────────────────────
 async function connectToServer() {
-  const url = $('server-url').value.trim();
+  let url = $('server-url').value.trim();
   if (!url) return;
+  // Auto-prepend http:// if user omitted the protocol
+  if (!/^https?:\/\//i.test(url)) url = 'http://' + url;
+  $('server-url').value = url;
   state.serverUrl = url;
   if (window.ea) window.ea.setSettings({ serverUrl: url }).catch(() => {});
 

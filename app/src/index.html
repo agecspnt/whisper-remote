@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy"
+  content="default-src 'self'; connect-src *; script-src 'self' blob:; worker-src blob:; style-src 'self' 'unsafe-inline';">
+<title>Whisper Remote</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ── Update banner ─────────────────────────────────────────────────── -->
+<div id="update-bar" class="update-bar hidden">
+  <span id="update-msg"></span>
+  <button id="update-btn" class="update-action"></button>
+  <button id="update-dismiss" class="update-dismiss">✕</button>
+</div>
+
+<div class="layout">
+
+  <!-- ── Sidebar ─────────────────────────────────────────────────────── -->
+  <aside class="sidebar">
+
+    <!-- Server URL -->
+    <div class="sidebar-section server-section">
+      <div class="server-row">
+        <span id="status-dot" class="dot"></span>
+        <input id="server-url" type="text" class="server-input"
+               placeholder="http://localhost:8000" spellcheck="false">
+        <button class="icon-btn" onclick="connectToServer()" title="连接">↻</button>
+      </div>
+    </div>
+
+    <!-- New session -->
+    <div class="sidebar-section">
+      <div class="section-label">会话</div>
+      <div class="input-row">
+        <input type="text" id="new-session-name" placeholder="新会话名称（可选）">
+        <button class="pill-btn accent" onclick="createSession()">＋</button>
+      </div>
+      <div id="session-list" class="session-list"></div>
+    </div>
+
+    <!-- This device -->
+    <div class="sidebar-section">
+      <div class="section-label">此设备输入</div>
+
+      <div class="device-row">
+        <select id="browser-mic-device" class="select-sm"></select>
+        <button class="icon-btn" onclick="loadBrowserDevices()" title="刷新">↺</button>
+      </div>
+      <button id="btn-browser-mic" class="pill-btn full" onclick="toggleBrowserMic()">
+        🎙 麦克风
+      </button>
+
+      <div class="upload-area">
+        <input type="file" id="file-input" accept="audio/*,video/*">
+        <button class="pill-btn full ghost" onclick="uploadFile()">▲ 上传文件</button>
+      </div>
+
+      <!-- Upload progress -->
+      <div id="upload-progress-wrap" class="progress-wrap hidden">
+        <div class="progress-header">
+          <span id="upload-filename" class="progress-name"></span>
+          <span id="upload-pct" class="progress-pct">0%</span>
+        </div>
+        <div class="progress-track">
+          <div id="upload-bar" class="progress-fill"></div>
+        </div>
+        <div id="upload-phase" class="progress-phase">准备中…</div>
+      </div>
+      <div id="upload-error-box" class="upload-error hidden"></div>
+    </div>
+
+    <!-- Server-side inputs -->
+    <div class="sidebar-section">
+      <div class="section-label">服务器输入</div>
+      <div class="device-row">
+        <label class="label-xs">麦克风</label>
+        <select id="mic-device" class="select-sm"></select>
+      </div>
+      <div class="btn-group">
+        <button class="pill-btn ghost sm" onclick="micStart()">▶ 开始</button>
+        <button class="pill-btn ghost sm" onclick="micStop()">■ 停止</button>
+      </div>
+      <div class="device-row" style="margin-top:6px">
+        <label class="label-xs">系统音</label>
+        <div class="btn-group">
+          <button class="pill-btn ghost sm" onclick="systemStart()">▶ 开始</button>
+          <button class="pill-btn ghost sm" onclick="systemStop()">■ 停止</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div class="sidebar-section">
+      <div class="section-label">转写设置</div>
+      <div class="slider-row">
+        <span class="label-xs">句段延迟</span>
+        <span id="sentence-gap-label" class="slider-val">1.5s</span>
+      </div>
+      <input type="range" id="sentence-gap" class="slider"
+             min="0" max="4" step="0.1" value="1.5"
+             oninput="onSentenceGapChange(this.value)">
+      <div class="slider-hints">
+        <span>0s 即时</span><span>4s 完整句</span>
+      </div>
+    </div>
+
+    <!-- Export -->
+    <div class="sidebar-section">
+      <div class="section-label">导出</div>
+      <div class="btn-group">
+        <button class="pill-btn ghost sm" onclick="exportSession('srt')">SRT</button>
+        <button class="pill-btn ghost sm" onclick="exportSession('txt')">TXT</button>
+        <button class="pill-btn ghost sm" onclick="exportSession('json')">JSON</button>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ── Main ─────────────────────────────────────────────────────────── -->
+  <main class="main">
+    <div class="toolbar">
+      <span id="session-title" class="session-title">选择或创建会话</span>
+      <span id="session-badge" class="badge"></span>
+      <div style="flex:1"></div>
+      <button class="pill-btn ghost sm" onclick="stopSession()">停止会话</button>
+    </div>
+
+    <div id="subtitle-feed" class="feed">
+      <div id="empty-state" class="empty">
+        <div class="empty-icon">💬</div>
+        <p>创建会话并选择音频源后，字幕将在此实时显示</p>
+        <p class="muted">支持中英文混合 · 实时双语</p>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>

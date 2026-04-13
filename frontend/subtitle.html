@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>字幕 — Whisper Remote</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --zh: #fde68a;
+    --en: #93c5fd;
+    --shadow: rgba(0,0,0,.85);
+  }
+
+  body {
+    background: transparent;
+    color: #fff;
+    font-family: 'Noto Sans SC', 'PingFang SC', system-ui, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 60px 40px;
+    overflow: hidden;
+  }
+
+  /* Subtitle container: shows last N subtitles stacked */
+  #sub-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 50vh;
+    overflow: hidden;
+  }
+
+  .sub-line {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background: rgba(0,0,0,.55);
+    backdrop-filter: blur(4px);
+    animation: fadeIn .25s ease;
+    transition: opacity .3s;
+  }
+  .sub-line.interim { opacity: .65; }
+  .sub-line.old     { opacity: .35; }
+
+  .sub-zh {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--zh);
+    text-shadow:
+      -2px -2px 0 var(--shadow),
+       2px -2px 0 var(--shadow),
+      -2px  2px 0 var(--shadow),
+       2px  2px 0 var(--shadow);
+    line-height: 1.3;
+  }
+  .sub-en {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--en);
+    text-shadow:
+      -1px -1px 0 var(--shadow),
+       1px -1px 0 var(--shadow),
+      -1px  1px 0 var(--shadow),
+       1px  1px 0 var(--shadow);
+    line-height: 1.3;
+  }
+
+  /* Mic indicator dot */
+  #indicator {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: #22c55e;
+    animation: pulse 2s infinite;
+  }
+  #indicator.disconnected { background: #ef4444; animation: none; }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: .3; }
+  }
+
+  /* Query-param: ?session=ID to filter, ?maxlines=N */
+  /* Controlled via URL */
+</style>
+</head>
+<body>
+
+<div id="indicator" class="disconnected"></div>
+<div id="sub-stack"></div>
+
+<script>
+const params    = new URLSearchParams(location.search);
+const filterSid = params.get('session') || null;
+const maxLines  = parseInt(params.get('maxlines') || '3', 10);
+
+const stack     = document.getElementById('sub-stack');
+const indicator = document.getElementById('indicator');
+
+// Map subtitle id → DOM element
+const cards = new Map();
+
+function renderSub(sub) {
+  const isZh = sub.original_language === 'zh' || sub.original_language === 'yue';
+  const d = sub.display || {};
+  const zhText = isZh ? (d.zh || sub.original_text) : (d.zh || sub.translated_text);
+  const enText = isZh ? (d.en || sub.translated_text) : (d.en || sub.original_text);
+
+  let el = cards.get(sub.id);
+  const isNew = !el;
+
+  if (!el) {
+    el = document.createElement('div');
+    el.className = 'sub-line';
+    el.dataset.id = sub.id;
+    stack.appendChild(el);
+    cards.set(sub.id, el);
+  }
+
+  el.className = 'sub-line' + (sub.is_interim ? ' interim' : '');
+  el.innerHTML = `
+    ${zhText ? `<div class="sub-zh">${esc(zhText)}</div>` : ''}
+    ${enText ? `<div class="sub-en">${esc(enText)}</div>` : ''}
+  `;
+
+  // Mark older lines as faded
+  const all = [...stack.children];
+  all.forEach((c, i) => {
+    const age = all.length - 1 - i;
+    c.classList.toggle('old', age >= maxLines);
+  });
+
+  // Trim to maxLines * 2 DOM elements
+  while (stack.children.length > maxLines * 2) {
+    const removed = stack.children[0];
+    cards.delete(removed.dataset.id);
+    stack.removeChild(removed);
+  }
+}
+
+function esc(s) {
+  return String(s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// Load existing subtitles from REST API (only when ?session= is set)
+if (filterSid) {
+  fetch(`/api/sessions/${filterSid}`)
+    .then(r => r.ok ? r.json() : null)
+    .then(s => { if (s) s.subtitles.forEach(renderSub); })
+    .catch(() => {});
+}
+
+// WebSocket connection
+function connect() {
+  const proto = location.protocol === 'https:' ? 'wss' : 'ws';
+  const ws = new WebSocket(`${proto}://${location.host}/ws/subtitles`);
+  let pingTimer;
+
+  ws.onopen = () => {
+    indicator.className = '';
+    // Keepalive: prevents Oracle NAT / cloud firewalls from dropping idle connections.
+    pingTimer = setInterval(() => {
+      if (ws.readyState === WebSocket.OPEN) ws.send('ping');
+    }, 20000);
+  };
+  ws.onclose = () => {
+    indicator.className = 'disconnected';
+    clearInterval(pingTimer);
+    setTimeout(connect, 2000);
+  };
+  ws.onmessage = e => {
+    const msg = JSON.parse(e.data);
+    if (msg.type !== 'subtitle') return;
+    const sub = msg.data;
+    if (filterSid && sub.session_id !== filterSid) return;
+    renderSub(sub);
+  };
+}
+
+connect();
+</script>
+</body>
+</html>

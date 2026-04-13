@@ -1,0 +1,1879 @@
+1
+00:00:06,638 --> 00:00:08,494
+a little summary, and then I'm going to introduce.
+简单总结一下,然后我要介绍一下。
+
+2
+00:00:07,388 --> 00:00:08,508
+Topic and
+专题和
+
+3
+00:00:03,955 --> 00:00:09,235
+and then I'll delve into the actual enabling technologies that are going to allow.
+然后,我会研究 实际的赋能技术 将允许。
+
+4
+00:00:05,988 --> 00:00:09,412
+health care medicine workers to make their way into the club.
+保健医疗工作者进入俱乐部。
+
+5
+00:00:08,282 --> 00:00:09,498
+Um
+嗯
+
+6
+00:00:07,470 --> 00:00:10,126
+and of course the element state that I didn't write this with AI.
+当然,这个元素说 我没有写这个 与AI。
+
+7
+00:00:03,183 --> 00:00:11,087
+pretty much just gave the summary this is a bit of a spoiler anyway so let's get over that so
+简略地说,这只是一个 有点破坏器 反正,所以让我们来 克服这一点,所以
+
+8
+00:00:10,235 --> 00:00:11,195
+Mm-hmm
+嗯,嗯,嗯,嗯,嗯,嗯,嗯,嗯,嗯
+
+9
+00:00:05,568 --> 00:00:11,456
+But you don't have to rush me, because you're not going to complete this in a whole hour.
+但你不必催我 因为你一个小时后就完成不了了
+
+10
+00:00:09,340 --> 00:00:11,580
+Always wanted to give it up for the presentation.
+一直想为演讲放弃它
+
+11
+00:00:10,890 --> 00:00:12,170
+so
+so so, so, so, so, so, so, so, so,
+
+12
+00:00:12,212 --> 00:00:14,260
+Why would we want to do that?
+我们为什么要这样做?
+
+13
+00:00:08,641 --> 00:00:14,593
+And that's exactly what the problem statement is here, is to make wearables a home of viable technology.
+这正是这里的问题所在, 就是把穿戴器变成一个有可行技术的家。
+
+14
+00:00:12,702 --> 00:00:14,622
+Because, um...
+因为,嗯...
+
+15
+00:00:00,000 --> 00:00:14,849
+Wearables are devices that you're going to wear.  Everyone's first thought is an Apple Watch.  But these are wearables in healthcare and medicine.  So there's a very different problem statement between a consumer wearable like an Apple Watch  and a medical wearable like the whole-tier monitor or a brochure monitor picture.
+服装是你们将要穿戴的装置。 每个人首先想到的都是苹果观察。 但是这些是在医疗和医疗方面的穿戴。 因此,像苹果观察一样的消费者穿戴, 和像全层监视器或小册子监视图片那样的医疗穿戴, 之间有一个非常不同的问题陈述。
+
+16
+00:00:04,314 --> 00:00:15,034
+The majority of wearables are consumer wearables because people don't really want to wear something medically.  That's not, you don't want to strap a big thing to your arm and walk around with it.
+大部分的穿衣用品是消费者穿戴的,因为人们不想在医学上穿戴。那不是,你不想把一件大东西绑在手臂上,带着它走来走去。
+
+17
+00:00:13,170 --> 00:00:16,274
+That's a lot of time, that's a lot of money.
+那是很多时间,这是很多钱。
+
+18
+00:00:06,772 --> 00:00:16,276
+Essentially, and that's the bottom line there, literally, is it will improve access to care.  If people can get health care in their house, then they don't have to go to the hospital.
+从根本上说,这就是这里的底线, 也就是说,它能改善人们获得护理的机会。如果人们可以在家中获得医疗保健,那么他们就不必去医院。
+
+19
+00:00:14,433 --> 00:00:16,481
+And if we could revise that.
+如果我们能修改它。
+
+20
+00:00:05,698 --> 00:00:16,738
+We can filter the signals, so this is an electroencephalogram that I've pictured as well as the data output,  and that's a whole bunch of data that previously would be in the lines.
+我们可以过滤信号, 所以这是电子脑图,我所描绘的 和数据输出一样, 这是一大堆数据, 以前在线上。
+
+21
+00:00:17,225 --> 00:00:17,833
+Thank you.
+谢谢
+
+22
+00:00:13,653 --> 00:00:17,845
+This will lower the cost of patients and even more.
+这将降低病人的费用,甚至更低。
+
+23
+00:00:07,419 --> 00:00:18,203
+filtering we could just say hey here's an event we need to look at instead of 24 hours a day, 7 days a week PEG records that we need to spend hours analyzing.
+过滤器上我们可以只说"嘿"这里有一个事件 我们需要看 而不是24小时,每周7天 PEG记录 我们需要花小时分析。
+
+24
+00:00:14,713 --> 00:00:18,329
+more testing and more diagnosis earlier on.
+早点做更多的检测和诊断
+
+25
+00:00:17,487 --> 00:00:18,415
+testing.
+测试。
+
+26
+00:00:17,704 --> 00:00:18,632
+Thank you.
+谢谢
+
+27
+00:00:17,909 --> 00:00:18,997
+It's a massive umbrella.
+这是一个巨大的伞。
+
+28
+00:00:18,460 --> 00:00:19,452
+So if you're going to talk about why.
+所以,如果你要 谈谈为什么。
+
+29
+00:00:18,641 --> 00:00:19,601
+to.
+至.
+
+30
+00:00:14,460 --> 00:00:20,540
+I wanted to focus on three things that I think are really impactful towards making wearables more viable.
+我想集中谈三件事,我认为这三件事对使穿戴更加可行具有真正影响。
+
+31
+00:00:16,631 --> 00:00:20,567
+The first one is a non-sensitive fence or expense.
+第一个是非敏感的围栏或费用。
+
+32
+00:00:18,073 --> 00:00:20,857
+which can detect the presence or lack of movement.
+能够发现存在或没有行动。
+
+33
+00:00:19,861 --> 00:00:20,949
+Solution
+解决方案
+
+34
+00:00:19,693 --> 00:00:21,229
+Thank you.
+谢谢
+
+35
+00:00:19,027 --> 00:00:21,779
+So a simple, it's a readout circuit.
+很简单,这是一个读出电路。
+
+36
+00:00:21,032 --> 00:00:22,312
+that current role.
+这一目前的作用。
+
+37
+00:00:18,433 --> 00:00:22,497
+just biasing the current for the use fit, which lets you re-write.
+仅仅偏向当前, 以适合使用, 这样您就可以重新写入 。
+
+38
+00:00:18,243 --> 00:00:23,587
+And that's, you know, that's great.  We can determine if someone's sweat, okay, not so much.
+那很好 我们可以确定某人是否出汗
+
+39
+00:00:09,948 --> 00:00:24,125
+Equation like that, and you can see that Vg minus Vs, any change in Vg is going to produce the same change in the source voltage so long as the current is biased and the source voltage is left.
+像这样的方程式,你可以看到Vg减去Vs, Vg的任何变化 都会在源电压中产生相同的变化, 只要电流有偏向, 源电压也留下。
+
+40
+00:00:22,343 --> 00:00:24,295
+process it uses a special
+使用特殊
+
+41
+00:00:19,438 --> 00:00:24,334
+When the sensing memory is being laid down, that's a very difficult problem.
+当感应记忆被放下时, 这是一个非常困难的问题。
+
+42
+00:00:23,419 --> 00:00:24,475
+Thank you.
+谢谢
+
+43
+00:00:23,674 --> 00:00:24,922
+That's what it gets you.
+这就是它让你得到什么。
+
+44
+00:00:22,171 --> 00:00:25,627
+which involves exposing the sensing membrane to high energy UV light.
+包括将感应膜暴露于高能紫外线光线下。
+
+45
+00:00:22,433 --> 00:00:25,729
+light traps electrons, and cite that later.
+光捕捉电子 稍后引用
+
+46
+00:00:24,743 --> 00:00:26,471
+Random offset.
+随机偏移
+
+47
+00:00:20,086 --> 00:00:26,582
+So every single misfit that comes off the line  has a different amount of electrons  trapped in the sensing layer.
+所以每一个从线上掉下来的错误 都有不同数量的电子 被困在感应层里
+
+48
+00:00:25,323 --> 00:00:26,635
+Have a good one.
+玩得开心点
+
+49
+00:00:26,341 --> 00:00:27,173
+Thank you.
+谢谢
+
+50
+00:00:23,551 --> 00:00:27,199
+Since it's a vet, right, it's essentially the same source training.
+由于它是兽医,对, 它基本上是相同的源培训。
+
+51
+00:00:25,826 --> 00:00:27,650
+with a regular MOSFET.
+和普通的外科医生。
+
+52
+00:00:21,317 --> 00:00:28,229
+differential amplifier that essentially subtracts out the effective temperature on the system.
+能够基本上减去系统有效温度的差分放大器。
+
+53
+00:00:24,252 --> 00:00:28,540
+because both of these, both of these pets will be affected by it.
+因为两者,这两种宠物都会受到它的影响。
+
+54
+00:00:25,460 --> 00:00:28,660
+Some of the same things, mainly temperature.
+有些东西是一样的,主要是温度
+
+55
+00:00:26,799 --> 00:00:28,975
+but the disrespect will only be...
+但这种不尊重只会...
+
+56
+00:00:25,936 --> 00:00:29,840
+You know, the is-vet effect of sensing membrane wall, the effect of is-vet and not.
+你知道,感知膜墙的视觉效应, 和不感知的视觉效应。
+
+57
+00:00:27,038 --> 00:00:30,014
+regular fed, so that's the only thing that doesn't get subtracted out.
+定期进食,所以这是唯一不减掉的东西。
+
+58
+00:00:26,983 --> 00:00:30,183
+The important thing is that you need to have the same input.
+重要的是,你需要有相同的输入。
+
+59
+00:00:29,341 --> 00:00:30,365
+matched.
+匹配。
+
+60
+00:00:25,969 --> 00:00:31,153
+Here's the time dependence here of scratch I promised, so the bottom three lines are B.
+这是时间依赖 这里的抓痕,我答应, 所以底三行是B。
+
+61
+00:00:30,215 --> 00:00:31,911
+So essentially...
+所以说... So impractically...
+
+62
+00:00:31,008 --> 00:00:31,968
+See you.
+再见
+
+63
+00:00:29,602 --> 00:00:32,290
+actual gate of
+实际开关
+
+64
+00:00:21,432 --> 00:00:32,312
+with the dependence on time.  That's pretty rural, dependence on time.  It's hard to get a good reading.  And the top lines are after the applications  .
+依赖时间。这是很乡村的, 依赖时间。很难得到一个好的阅读。 而顶端的线就是在应用程序之后。
+
+65
+00:00:29,501 --> 00:00:32,861
+Sorry, the body of the ispette is allowed to float.
+抱歉, 委托人的身体允许浮动 。
+
+66
+00:00:28,807 --> 00:00:33,447
+that the sensei membrane is attached to the body of the esophageal rather than the gait.
+感官膜附着在食道的身体上 而不是步态上
+
+67
+00:00:29,537 --> 00:00:33,665
+because all of that characteristics have to do with the difference between the body and game.
+因为所有这些特征 都与身体和游戏的区别有关
+
+68
+00:00:30,608 --> 00:00:34,320
+Normally we can tie the body to ground, but in this case...
+通常我们可以把尸体绑在地上 但在这种情况下...
+
+69
+00:00:30,480 --> 00:00:34,640
+we can tie the body to ground through the sensei membrane.
+我们可以通过感官膜把尸体绑在地上
+
+70
+00:00:30,269 --> 00:00:35,037
+which means the whole solution can be grounded now.  No electronic field.
+这意味着整个解决方案现在可以依据。没有电子字段。
+
+71
+00:00:32,083 --> 00:00:35,251
+in the solution, no electronic variation.
+在解决方案中,没有电子变换。
+
+72
+00:00:32,836 --> 00:00:35,524
+So the time dependence is resolved.
+所以时间依赖性就解决了
+
+73
+00:00:30,150 --> 00:00:35,814
+And there's a separate gate on the inside of the IC.
+IC内部有一个单独的门
+
+74
+00:00:34,449 --> 00:00:36,177
+coupled to the sensing membrane.
+与感应膜结合。
+
+75
+00:00:33,885 --> 00:00:36,446
+And that is what allows us to still have the...
+这就是让我们仍然拥有...
+
+76
+00:00:34,993 --> 00:00:36,817
+you know, this way of sensing effect.
+你知道,这种感知效果的方式。
+
+77
+00:00:33,975 --> 00:00:37,079
+Importantly, this uses a different
+重要的是,这用的是不同的
+
+78
+00:00:35,348 --> 00:00:37,396
+Fabrication Methods
+制造方法
+
+79
+00:00:36,578 --> 00:00:37,634
+patient with it.
+耐心点
+
+80
+00:00:36,173 --> 00:00:37,997
+that allows it to isolate the body.
+让它能隔开身体
+
+81
+00:00:29,799 --> 00:00:38,631
+this but there's absolutely nothing about this approach that changes the central circuit so we  absolutely
+但是这个改变中央电路的方法 绝对没有任何改变 所以我们绝对
+
+82
+00:00:35,784 --> 00:00:39,401
+Finally, it's the trap charge between the layers.
+最后,这是层层之间的陷阱装药
+
+83
+00:00:31,256 --> 00:00:39,800
+You know, just put one of these alternatively constructed is-vets  paired with a regular vet, and boom, that's the temperature and time dependence result.
+你知道,只要放一个这些 或建的,是蔬菜 配上一个普通的兽医, 和繁荣, 这就是温度和时间依赖的结果。
+
+84
+00:00:37,319 --> 00:00:39,815
+So there are a couple of approaches to mental health.
+因此,对心理健康有几种办法。
+
+85
+00:00:38,619 --> 00:00:40,283
+The first one I looked at was...
+我第一眼看的那个是...
+
+86
+00:00:39,959 --> 00:00:40,951
+on those items.
+关于这些项目的报告。
+
+87
+00:00:35,221 --> 00:00:41,077
+is removing the trap charge directly using a lower power unit light for a longer duration.
+直接使用低功率装置灯光在更长的时间内去除陷阱电荷。
+
+88
+00:00:38,552 --> 00:00:41,336
+extra electrons free from the bindings.
+额外的电子,没有装订。
+
+89
+00:00:40,242 --> 00:00:41,426
+Thank you.
+谢谢
+
+90
+00:00:38,593 --> 00:00:41,953
+random variance output unifies.
+随机变化输出统一化 。
+
+91
+00:00:40,300 --> 00:00:42,092
+outside.
+外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 。
+
+92
+00:00:39,799 --> 00:00:42,359
+out 10 hours of exposure to the low-
+暴露于低浓度的10小时之外
+
+93
+00:00:42,040 --> 00:00:42,872
+We'll be right back.
+我们马上回来
+
+94
+00:00:36,683 --> 00:00:43,147
+This is great for small matches, and it's great if you want to fit really small space.
+这对小火柴来说是件好事, 如果你想适应真正的小空间,那也是件好事。
+
+95
+00:00:40,356 --> 00:00:43,524
+But it does involve a lot of post-processing, which might not be.
+但它确实涉及到很多后处理, 这可能不是。
+
+96
+00:00:40,378 --> 00:00:44,346
+capacitor that offsets that random charge variation.
+能够抵消随机电荷变化的电容器
+
+97
+00:00:43,565 --> 00:00:44,494
+then you can have...
+然后你可以拥有...
+
+98
+00:00:35,441 --> 00:00:44,945
+The alternative is to use gradient descent with programmable capacitor.  So you add some extra circuitry around the ISPET including the programmable capacitor.
+替代品是使用可编程电容器的梯度下降。 所以, 您可以在 ISPET 周围添加一些额外的电路, 包括可编程电容器 。
+
+99
+00:00:41,541 --> 00:00:45,157
+a massive array of dozens of ispets, however many you want.
+数十块瓦片的庞大阵容 不论你想要多少
+
+100
+00:00:41,183 --> 00:00:45,439
+and use the gradient set algorithm to manually unify.
+并使用梯度设置算法手动统一。
+
+101
+00:00:43,069 --> 00:00:45,533
+their outputs, essentially, just by
+产出的产出,主要是
+
+102
+00:00:44,275 --> 00:00:45,779
+sitting there with the program.
+和节目一起坐在那里
+
+103
+00:00:45,293 --> 00:00:46,157
+Okay.
+好吧。 好吧。 好吧。 Okay.
+
+104
+00:00:45,254 --> 00:00:46,374
+All right.
+好吧。 好吧。 好吧。
+
+105
+00:00:45,177 --> 00:00:46,585
+And I like it.
+我喜欢它。
+
+106
+00:00:42,666 --> 00:00:47,370
+I like this graph because this is showing the offset for each of the programmable gates.
+我喜欢这个图,因为这个图显示每个可编程的大门的偏差。
+
+107
+00:00:43,393 --> 00:00:47,585
+And it's completely unreadable because they all have different offsets.
+这是完全无法读懂的 因为他们都有不同的偏差
+
+108
+00:00:46,806 --> 00:00:47,830
+to the
+会 议 日 和 排
+
+109
+00:00:46,893 --> 00:00:48,013
+There ain't nothing for you to do.
+你无事可做
+
+110
+00:00:45,726 --> 00:00:48,350
+The next topic, energy harvesting.
+下一个主题,能源收集。
+
+111
+00:00:47,649 --> 00:00:49,601
+other parts of human movement.
+人类运动的其他部分。
+
+112
+00:00:44,773 --> 00:00:49,989
+But you can also use UV rays from the sun, solar power.  You can use
+但是您也可以使用太阳的紫外线,太阳能。您也可以使用太阳的紫外线,太阳能。
+
+113
+00:00:38,070 --> 00:00:50,006
+so you can harvest energy from the environment all kinds of sources there's a very common  you know little clip i've heard on the internet about japan using electric tiles to harvest energy
+所以,你可以从环境中收获能源 各种来源。 有一个非常常见的,你知道 一个小剪辑我听说过 在互联网上听说过 关于日本人使用电砖 收获能源。
+
+114
+00:00:47,950 --> 00:00:50,287
+So they use...
+所以他们用...
+
+115
+00:00:45,392 --> 00:00:50,448
+But as this example does, you can use radio waves in the air to harvest energy.
+但正如这个例子一样,你可以使用空气中的无线电波来获取能量。
+
+116
+00:00:46,055 --> 00:00:50,887
+a conductive thread that's woven into a piece of cloth
+一种导导线 编织成一块布
+
+117
+00:00:49,997 --> 00:00:50,925
+Please try.
+请试一试
+
+118
+00:00:50,634 --> 00:00:51,626
+It's great.
+这是伟大的。
+
+119
+00:00:45,947 --> 00:00:51,707
+And then each antenna has its own rectifier, so they call it a rectenna.
+然后每根天线都有自己的矩形, 所以他们称它为直线。
+
+120
+00:00:50,944 --> 00:00:51,968
+Um...
+嗯... ... 嗯... Um...
+
+121
+00:00:45,873 --> 00:00:52,753
+And it gets sewn on in all five directions, which allows the antenna to receive power from any direction it gets to.
+它从所有五个方向缝合, 使天线从任何方向接收能量。
+
+122
+00:00:28,264 --> 00:00:57,608
+You can see here a little zoom-in of the rectifier circuit.  It's very small, very clever.  And in the bottom left, they were actually  able to run a low-power test of temperature and humidity  sensor for three full minutes using just the power  from this rectenna.  So they put the rectenna up to power  and then blasted some RF waves at their shirt, essentially.  And they were able to use that to power a microcontroller  and display some data.
+您可以在这里看到直肠电路的放大点。 它非常小,非常聪明。 在左下角, 他们实际上能够用这个矩形的电源 进行低功率的温度和湿度传感器测试 整整三分钟。 所以他们把矩形放上电, 然后将一些RF波喷射到他们的衬衫上。 他们能够用它来给微控制器提供动力, 并展示一些数据。
+
+123
+00:00:51,166 --> 00:00:55,038
+And that's very, very valuable, especially for devices that don't.
+这是非常非常非常有价值的, 特别是对于那些没有价值的装置来说。
+
+124
+00:00:53,320 --> 00:00:55,752
+to take those 10 minutes of readings.
+10分钟的读数。
+
+125
+00:00:53,689 --> 00:00:56,025
+and then send that data back.
+然后将数据发回。
+
+126
+00:00:49,034 --> 00:00:56,874
+There's also energy harvesting from movement so the piezoelectric effect causes materials to
+也从运动中收集能源 所以, 派生电效应 导致材料
+
+127
+00:00:54,693 --> 00:00:56,901
+or squeezed or deformed.
+或挤压或变形。
+
+128
+00:00:44,017 --> 00:00:56,913
+need to be on 24-7 right if you want to take a reading on someone for 10 minutes out of every  hour this seems perfect they can wear a small battery it can fill up the battery over time  and then discharge the battery
+24 -7需要在24 -7右上, 如果你想在每小时10分钟的时间内对某人进行读取, 这样他们最好能穿一个小电池, 电池可以填充电池, 然后排放电池。
+
+129
+00:00:55,278 --> 00:00:57,070
+And the tribal ledger is finished.
+部落帐本也完成了
+
+130
+00:00:55,565 --> 00:00:57,389
+and this is what causes static.
+这就是造成静态的原因。
+
+131
+00:00:55,249 --> 00:00:57,649
+certain materials are different.
+某些材料是不同的。
+
+132
+00:00:56,753 --> 00:00:58,449
+more than they want to keep on another.
+而不是他们想再继续下去。
+
+133
+00:00:53,808 --> 00:00:58,512
+surface charge friendliness, and when you rub them together, charge is going to be on one material.
+表面充电方便, 当你把它们一起擦时, 充电将是一个材料。
+
+134
+00:00:53,915 --> 00:00:59,067
+And both of these, you can create some kind of mechanism.  And that's why I want to write that.
+这两个,你可以创建某种机制。这就是为什么我想写这个。
+
+135
+00:00:56,341 --> 00:00:59,445
+It moves current through the wire when you swing it.
+当你挥动电线时,它会通过电线移动。
+
+136
+00:00:57,096 --> 00:00:59,560
+Squish and un-squish.
+压抑和无压抑。
+
+137
+00:00:58,544 --> 00:00:59,728
+and
+和
+
+138
+00:00:58,945 --> 00:00:59,938
+is
+是
+
+139
+00:00:58,178 --> 00:01:00,258
+I'm not the source.
+我不是线人
+
+140
+00:00:59,139 --> 00:01:00,547
+I'll attempt to use the...
+我会尝试使用...
+
+141
+00:00:59,246 --> 00:01:00,846
+effects together to
+效果一起产生
+
+142
+00:00:59,686 --> 00:01:01,222
+on the security front here.
+在安全前方在这里。
+
+143
+00:01:00,889 --> 00:01:01,593
+it.
+它。 它。 它。 它。 它。
+
+144
+00:00:58,575 --> 00:01:01,903
+So he was essentially a plastic in a V-shape.
+所以他基本上就是V形的塑胶
+
+145
+00:01:00,222 --> 00:01:02,046
+And they have a
+他们有一个
+
+146
+00:00:58,332 --> 00:01:02,557
+Now, if he is an electric material in the crook of the V,
+如果他是V级骗子的电动材料
+
+147
+00:01:00,699 --> 00:01:02,907
+As you move, the program will be engaged.
+当你移动时,程序将会被激活。
+
+148
+00:01:01,736 --> 00:01:03,112
+Hinged.
+丁盖德 Hinged.
+
+149
+00:01:01,504 --> 00:01:03,296
+and that generates...
+产生...
+
+150
+00:01:02,512 --> 00:01:03,536
+potential
+潜在潜力
+
+151
+00:01:01,930 --> 00:01:03,882
+Tidal Electric Generator
+Tidal 发电机
+
+152
+00:01:00,367 --> 00:01:04,527
+It's just the rest of the beat as it makes full surface contact.
+这只是其余的节拍,因为它使 完全表面接触。
+
+153
+00:01:02,257 --> 00:01:04,529
+Let's pick up.
+我们接电话吧
+
+154
+00:01:03,820 --> 00:01:04,812
+of the generator.
+发电机。
+
+155
+00:01:04,239 --> 00:01:05,007
+Thank you.
+谢谢
+
+156
+00:01:01,005 --> 00:01:05,837
+This is great, except you can see in these diagrams that both of these methods have...
+这是伟大的, 除了你可以看到这些图表 这两种方法都有...
+
+157
+00:01:04,109 --> 00:01:06,381
+but they're going to be rectified somehow.
+但是,它们会得到某种方式的纠正。
+
+158
+00:01:02,158 --> 00:01:06,414
+up and down weight, so we don't just put out straight DC power down in medicine.
+上下减重,所以我们不只是 直接把DC的电力 倒在医学上。
+
+159
+00:01:02,415 --> 00:01:07,023
+So they have this really tiny four centimeter by four centimeter wire.
+所以他们用四厘米的铁丝网 有了这个小的四厘米
+
+160
+00:01:04,180 --> 00:01:07,124
+And interestingly, the piezoelectric generator...
+有趣的是, 派生电...
+
+161
+00:01:04,605 --> 00:01:07,357
+It doesn't have enough voltage to be able to...
+它没有足够的电压来...
+
+162
+00:01:05,596 --> 00:01:07,772
+to overcome the
+和《公约》战胜干旱和
+
+163
+00:01:05,696 --> 00:01:07,936
+Threshold of diode.
+二极线的阈值。
+
+164
+00:01:06,724 --> 00:01:08,644
+And then down here.
+然后在这下面
+
+165
+00:01:01,093 --> 00:01:09,285
+So the rectifier, that top rectifier, the new diodes,  that's actually an off-mount transistor being used to simulate a diode.
+所以整形器, 顶部整形器, 新的二极管, 实际上是用来模拟二极管的 离上式晶体管。
+
+166
+00:01:03,148 --> 00:01:09,292
+is this is the charge pump so the ring oscillator
+这是充电泵,所以环振动器
+
+167
+00:01:05,468 --> 00:01:09,852
+When this goes from low to high, you can't change the voltage or it is a hazard.
+当从低到高, 你不能改变电压 或这是一个危险。
+
+168
+00:01:09,444 --> 00:01:10,468
+causes it to overwork.
+导致工作负担过重。
+
+169
+00:01:09,381 --> 00:01:10,725
+for this guy over here.
+这家伙在这里。
+
+170
+00:01:09,226 --> 00:01:11,050
+the same effect down here.
+同样的效果在这里下面。
+
+171
+00:01:10,287 --> 00:01:11,535
+Thank you.
+谢谢
+
+172
+00:01:08,200 --> 00:01:11,624
+Kiesel electric voltage plus two tenths tribal electric voltage.
+Kiesel电压加二十分二的部落电压
+
+173
+00:01:10,551 --> 00:01:11,927
+Honestly, I didn't know.
+老实说,我不知道
+
+174
+00:01:09,256 --> 00:01:12,712
+Pull this up, full centimeter by full centimeter circuit.
+拉起这个,全厘米以整厘米的电路。
+
+175
+00:01:06,290 --> 00:01:13,106
+I really could imagine someone walking around with that.  Maybe a carpet or a shirt.
+我真的可以想象有人带着它走来走去,也许有地毯或衬衫
+
+176
+00:01:10,810 --> 00:01:13,114
+And here's just the results.
+这里只是结果。
+
+177
+00:01:08,780 --> 00:01:13,676
+So you can see that their simulation and experiment  are very on par with each other.
+所以你可以看到他们的模拟和实验 彼此非常相似。
+
+178
+00:01:10,943 --> 00:01:13,951
+And these graphs on the page.
+和这些图表 在页面上。
+
+179
+00:01:12,783 --> 00:01:14,095
+incredible efficiency
+效率令人难以置信
+
+180
+00:01:13,201 --> 00:01:14,385
+That's it.  Oh.
+就是这样
+
+181
+00:01:13,008 --> 00:01:15,056
+especially
+特别特别特别特别
+
+182
+00:01:13,807 --> 00:01:15,343
+Last is data handling.
+最后是数据处理。
+
+183
+00:01:11,775 --> 00:01:15,935
+So you produce a massive amount of data  if you're monitoring someone 24 hours a day.
+所以如果你每天24小时监视某人 就会产生大量的数据
+
+184
+00:01:08,093 --> 00:01:16,957
+and whether you're going to store the data on the device or transmit it somewhere else,  there are costs associated with that.  You're going to have to build a big memory.
+无论是将数据存储在设备上 还是将数据传输到别处 都有相关成本
+
+185
+00:01:15,528 --> 00:01:17,288
+Especially if you're, you know...
+特别是如果你是,你知道...
+
+186
+00:01:17,078 --> 00:01:17,910
+Thank you.
+谢谢
+
+187
+00:01:07,629 --> 00:01:18,157
+a lot of computational power if you want to store it on the device,  especially if you want to process it on the device.  If you're going to be constantly transmitting data,  that has a high energy cost as well.
+如果您想要将其存储在设备上, 特别是如果您想要在设备上处理它, 计算能力会很大。 如果您要不断传输数据, 能量成本也很高 。
+
+188
+00:01:12,167 --> 00:01:18,311
+indoors, perhaps a lot of walls between you and the base station, and a constant lot of  your energy resources.
+室内,也许有很多墙 在你和基地站之间, 和不断的你大量的能量资源。
+
+189
+00:01:16,074 --> 00:01:18,378
+Then you can do anything else.
+那样你就可以做别的事了
+
+190
+00:01:17,650 --> 00:01:18,642
+Great job.
+伟大的工作。
+
+191
+00:01:17,052 --> 00:01:18,908
+Try to send your packet.
+尝试发送您的包。
+
+192
+00:01:18,072 --> 00:01:19,544
+work. Try again, try again, try again.
+工作。再试一次,再试一次,再试一次。
+
+193
+00:01:19,448 --> 00:01:20,312
+ever.
+永远
+
+194
+00:01:18,948 --> 00:01:20,900
+But for one of them, he just isn't making it.
+但对于其中一人来说,他只是没能成功
+
+195
+00:01:11,272 --> 00:01:21,096
+But after a certain amount of time, you've got to say stop.  You've got to say, okay, let's use the coded file because clearly we're too far from the base station.
+但过了一段时间,你必须说停。你必须说,好吧,让我们使用密码文件 因为显然我们离基地站太远了。
+
+196
+00:01:16,261 --> 00:01:21,253
+It's more reliable, even if it's less energy efficient.
+更可靠,即使能源效率不高
+
+197
+00:01:18,343 --> 00:01:21,959
+compared to the other threshold plans.
+与其他阈值计划相比。
+
+198
+00:01:20,659 --> 00:01:22,163
+And on the left.
+左边也是
+
+199
+00:01:13,768 --> 00:01:22,312
+So you can see here the threshold time of five minutes was chosen because it bottoms out both the packet loss rate and the current consumption.
+您可以在这里看到 5分钟的起始时间是选择的 因为它压倒了 包装损失率和当前消耗量。
+
+200
+00:01:20,434 --> 00:01:23,570
+Why would we ever have the money if we would just use the code of five for everything?
+如果我们每件事情都用5的密码 我们怎么会有这笔钱呢?
+
+201
+00:01:11,841 --> 00:01:23,713
+you can just see that the two-minute threshold time was swapping back and forth way too frequently  right there's no way that you need to use decoder 5 for every single packet or else
+你可以看到,两分钟的门槛时间是 来来回互换的太频繁了 你不可能每包都用代码解码器5或者其他的
+
+202
+00:01:22,384 --> 00:01:24,176
+Thanks for watching!
+感谢观看!
+
+203
+00:01:21,487 --> 00:01:24,879
+a lot of things that are kind of coming together to enable.
+很多事情都是为了帮助我们而聚集在一起的。
+
+204
+00:01:21,162 --> 00:01:25,066
+at-home medical devices
+家用医疗设备
+
+205
+00:01:24,079 --> 00:01:25,295
+you can take it to the middle line.
+你可以把它带到中间线。
+
+206
+00:01:13,651 --> 00:01:25,299
+Whereas with the 5, you know, the 10 minutes was too long, right?  It wasn't switching fast enough that we keep trying with the 1M  far past that 8 attempts threshold where you might have lost those minutes.
+至于5,你知道,10分钟是太长了,对不对?
+
+207
+00:01:23,828 --> 00:01:25,492
+so many more things
+如此多的事情
+
+208
+00:01:24,029 --> 00:01:25,821
+the pH.
+PH值。
+
+209
+00:01:24,001 --> 00:01:26,145
+world is depending on the sense of memory.
+世界取决于记忆感。
+
+210
+00:01:23,838 --> 00:01:26,622
+We wanted as long as it could have that input here.
+我们希望它能在这里有这种投入。
+
+211
+00:01:24,030 --> 00:01:26,942
+The energy harvesting are a lot of people.
+能源收获是很多人。
+
+212
+00:01:26,198 --> 00:01:27,190
+homes.
+家庭。
+
+213
+00:01:25,110 --> 00:01:27,414
+device
+设备设备
+
+214
+00:01:26,097 --> 00:01:27,697
+data that they need.
+他们需要的数据。
+
+215
+00:01:27,157 --> 00:01:27,989
+Yeah.
+对
+
+216
+00:01:27,394 --> 00:01:28,642
+is enabling those medical...
+帮助那些医疗...
+
+217
+00:01:27,578 --> 00:01:28,826
+Transmitting
+发送传送
+
+218
+00:01:28,231 --> 00:01:29,223
+than they are.
+而不是他们。
+
+219
+00:01:26,453 --> 00:01:29,622
+Taking in to base station and...
+接入基地站...
+
+220
+00:01:27,971 --> 00:01:29,731
+Let's go.
+我们走
+
+221
+00:01:28,906 --> 00:01:30,090
+with that.
+和那个。
+
+222
+00:01:26,904 --> 00:01:30,520
+His success is that he has tapped
+他的成功在于他已经成功
+
+223
+00:01:29,083 --> 00:01:30,779
+with the fastener.
+紧紧的紧紧的紧紧的紧紧的紧紧的紧紧的紧紧的紧扣,
+
+224
+00:01:29,910 --> 00:01:31,542
+Du må svara vant.
+杜马斯瓦拉范特
+
+225
+00:01:30,478 --> 00:01:31,662
+Papers.
+论文。
+
+226
+00:01:29,726 --> 00:01:32,062
+about the topic that he was talking about.
+关于他所谈论的话题
+
+227
+00:01:31,617 --> 00:01:32,609
+Uh...
+呃... Uh...
+
+228
+00:01:31,472 --> 00:01:32,624
+Look.
+听着
+
+229
+00:01:30,608 --> 00:01:33,040
+I agree so did State Service Magazine.
+我同意国家服务杂志也同意
+
+230
+00:01:30,353 --> 00:01:33,457
+Now, flirt it into paper.  Then...
+现在,把它调整成纸,然后...
+
+231
+00:01:29,225 --> 00:01:33,993
+Survey of wearable devices and challenges.  Answering communication services and tutorials.
+对可磨损设备和挑战的调查,答复通信服务和辅导。
+
+232
+00:01:27,708 --> 00:01:34,556
+And then finally, what I was at the end of the day saying  was certainly, I took free access.  So.
+最后,我最后说, 确实,我自由进入。所以。
+
+233
+00:01:23,779 --> 00:01:35,235
+Perhaps the other papers are a little bit more specialized,  bringing down the topic.  But if you want to find out, really, about the mainstream.
+也许其他的论文更专门化一点, 降低了这个话题。但是如果你想知道,关于主流。
+
+234
+00:01:31,923 --> 00:01:35,539
+uh center because this center is supposed to
+中心,因为这个中心应该
+
+235
+00:01:27,167 --> 00:01:35,615
+trend, achievements, or technical challenges of technology go to credible journals.  That's the message of this.
+科技的潮流、成就或技术挑战 都传到可信的杂志上
+
+236
+00:01:34,800 --> 00:01:35,664
+Thank you.
+谢谢
+
+237
+00:01:34,606 --> 00:01:35,918
+Thank you.
+谢谢
+
+238
+00:01:31,140 --> 00:01:36,548
+to explore or give you some habits, some practice.
+来探索或给你一些习惯, 一些实践。
+
+239
+00:01:35,374 --> 00:01:37,358
+and look at
+并查看
+
+240
+00:01:28,309 --> 00:01:37,365
+Trust being something that you haven't been used to studying because there is not enough space when you are in the room.
+信任你没有习惯于学习的东西 因为你在房间里时空间不够
+
+241
+00:01:32,926 --> 00:01:37,726
+and the problems of the state of the earth.
+以及地球状况的问题。
+
+242
+00:01:32,779 --> 00:01:38,187
+And the trap here is that any topic that you...
+这里的圈套是 任何你...
+
+243
+00:01:35,881 --> 00:01:38,505
+Let's do this.  Let's serve them all.
+开始吧,为大家服务吧
+
+244
+00:01:34,246 --> 00:01:38,950
+Returns to the immense amount of job, job, plainly job.
+回到大量的工作 工作 简单的工作
+
+245
+00:01:38,424 --> 00:01:39,672
+Thank you very much.
+非常感谢。
+
+246
+00:01:26,141 --> 00:01:40,317
+whether gossip or irrelevant or secondary or virtually important and so on.  So he was lucky or he was tough enough to get access to the best sources.  And I think this is one of the main messages.
+无论是流言或无关,还是次要或几乎重要等等。所以他很幸运,或者他非常努力地接触最佳来源。我想这是一条主要信息之一。
+
+247
+00:01:38,761 --> 00:01:40,617
+Move somewhere I don't know.
+搬到我不知道的地方去
+
+248
+00:01:40,234 --> 00:01:41,066
+Thank you.
+谢谢
+
+249
+00:01:27,322 --> 00:01:41,723
+And I like the timing of it as well, so you got straight 16, mostly 16 out of 16.  Mostly, I was pretty happy with your seminar deliveries, but unfortunately the 6th student has...
+我也喜欢这个时机, 所以你得到16分中的16分, 大部分是16分中的16分, 多数情况下,我对你的研讨会送货很满意, 但不幸的是,第6个学生...
+
+250
+00:01:38,052 --> 00:01:41,732
+Now, the second step is, you know, I'm going to...
+现在,第二步是,你知道,我要...
+
+251
+00:01:39,117 --> 00:01:41,997
+I have somebody to soon teach...
+我马上要教人...
+
+252
+00:01:40,110 --> 00:01:42,478
+A seminar class for...
+研讨会班...
+
+253
+00:01:40,011 --> 00:01:42,955
+No engineering students are going to pay you high.
+没有工程学生会付你高薪
+
+254
+00:01:39,635 --> 00:01:43,251
+And I may find that all of these price of little...
+我可能发现这些代价...
+
+255
+00:01:40,920 --> 00:01:43,448
+Seminars.
+研讨会。
+
+256
+00:01:42,579 --> 00:01:43,891
+어
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+257
+00:01:43,209 --> 00:01:44,105
+Thank you.
+谢谢
+
+258
+00:01:41,580 --> 00:01:44,493
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+1、2、3、4、5、6、7、8、9、10。
+
+259
+00:01:41,950 --> 00:01:44,638
+for non-EDU students.
+供非EDU学生使用。
+
+260
+00:01:39,553 --> 00:01:45,377
+So if I do, I will review them, because I have to review your slides one after another.
+因此,如果我这样做,我将审查它们,因为我必须逐一审查你们的幻灯片。
+
+261
+00:01:45,000 --> 00:01:46,056
+Thank you.
+谢谢
+
+262
+00:01:41,627 --> 00:01:46,235
+give you and most likely will give you in one paper right about
+给予你,你很可能 在一个纸上给你的权利
+
+263
+00:01:33,707 --> 00:01:46,251
+My attention is not enough to listen to what you said and look at your slides and comment and digest it as a whole.  So I'm going to go back to your slides.
+我的注意力不足以倾听你所说的话,看你们的幻灯片,评论和消化整个幻灯片。所以我要回到你们的幻灯片。
+
+264
+00:01:44,696 --> 00:01:46,488
+But then...
+但是后来... But then...
+
+265
+00:01:43,175 --> 00:01:46,855
+I may ask you over email to...
+我可能会通过电子邮件请求你...
+
+266
+00:01:44,831 --> 00:01:47,583
+some additional sub-corrections.
+一些额外的子更正。
+
+267
+00:01:40,619 --> 00:01:47,659
+If I find the topic suitable enough for that non-engineering AI class, I may ask you for...
+如果我觉得这个话题够适合 那个非工程的AI类课的话 我可以请你...
+
+268
+00:01:45,944 --> 00:01:47,864
+friendly purchase.
+友好购买 。
+
+269
+00:01:46,446 --> 00:01:48,494
+Thank you.
+谢谢
+
+270
+00:01:41,009 --> 00:01:48,721
+And I will add, I'll leave your name on the slide,  so I'll add my name as a kind of.
+我会补充,我会把你的名字留在幻灯片上, 所以我会把我的名字加为一种。
+
+271
+00:01:45,030 --> 00:01:49,062
+Now I'm notifying you about it, that you could have...
+现在我通知你,你本可以...
+
+272
+00:01:46,291 --> 00:01:49,395
+If this happens, you will be the...
+如果发生这样的事情,你会是...
+
+273
+00:01:44,826 --> 00:01:49,978
+You can list on your CV that your seminar has been used in.
+您可以在您的简历上列出您的研讨会已经使用的简历 。
+
+274
+00:01:48,505 --> 00:01:50,137
+Há de classificar.
+高贵的礼仪
+
+275
+00:01:45,811 --> 00:01:50,547
+But for now, you can drop the list on your CV.  Who is that?
+但是现在 你可以把简历上的名单 删掉
+
+276
+00:01:49,278 --> 00:01:50,590
+Thank you.
+谢谢
+
+277
+00:01:47,105 --> 00:01:51,393
+Oh, I'm just here for the seminar after.  Do you have a glass of beer?
+我只是来参加研讨会的 你有啤酒吗?
+
+278
+00:01:49,852 --> 00:01:51,484
+Oh, no, I want to talk.
+哦,不,我想谈谈。
+
+279
+00:01:49,832 --> 00:01:51,624
+So
+苏
+
+280
+00:01:49,827 --> 00:01:51,907
+Thank you.
+谢谢
+
+281
+00:01:50,767 --> 00:01:52,399
+You don't do this, you don't do that.
+你不这样做, 你不这样做。
+
+282
+00:01:49,578 --> 00:01:52,714
+It's absolutely for that, okay?
+这是绝对的,好吗?
+
+283
+00:01:51,478 --> 00:01:52,918
+Thank you for watching.
+感谢观看。
+
+284
+00:01:50,007 --> 00:01:53,303
+How about you?  Are you going to speak?
+你呢 你要说话吗
+
+285
+00:01:52,382 --> 00:01:53,886
+Good job.
+干得不错
+
+286
+00:01:52,742 --> 00:01:54,342
+How is the job market now?
+就业市场现在如何?
+
+287
+00:01:50,527 --> 00:01:54,431
+Good for the job.  Good for the job.
+好样的 好样的 好样的
+
+288
+00:01:51,386 --> 00:01:54,714
+I believe it doesn't have a lot around the world.
+我相信它没有太多 在世界各地。
+
+289
+00:01:52,011 --> 00:01:55,179
+There's not much around here where we go?  Yeah.  That's what he said.
+附近没有太多我们去的地方吗?
+
+290
+00:01:52,693 --> 00:01:55,477
+But that has been the forward.
+但是,这是向前推进的。
+
+291
+00:01:54,081 --> 00:01:55,745
+It's a lot like that for some time.
+一段时间以来都是这样
+
+292
+00:01:54,850 --> 00:01:55,906
+Thank you.
+谢谢
+
+293
+00:01:54,326 --> 00:01:56,246
+for most of the time
+大部分时间
+
+294
+00:01:55,711 --> 00:01:56,511
+Thank you.
+谢谢
+
+295
+00:01:54,046 --> 00:01:57,118
+So you are going to all leave with M and degree.
+所以你们都带着M和学位离开
+
+296
+00:01:55,484 --> 00:01:57,308
+Amém.
+阿梅姆。
+
+297
+00:01:55,979 --> 00:01:57,963
+million dollars for your success.
+为你们的成功捐资一百万美元
+
+298
+00:01:51,890 --> 00:01:57,970
+So this has been kind of a dry wrap for me before we have any weights.
+因此,这对我来说是一种干燥的包装 之前,我们有任何重量。
+
+299
+00:01:57,003 --> 00:01:58,123
+Right?
+对吧?
+
+300
+00:01:57,162 --> 00:01:58,602
+So.
+所以说 So. So. So.
+
+301
+00:01:55,157 --> 00:01:58,869
+to this second item that you had with me.
+第二件物品,你跟我在一起。
+
+302
+00:01:56,415 --> 00:01:59,327
+So I'm creating our seminar, clicking through slides.
+所以,我正在创建我们的研讨会, 点击幻灯片。
+
+303
+00:01:57,816 --> 00:01:59,416
+Thank you for watching!
+感谢观看!
+
+304
+00:01:58,147 --> 00:01:59,715
+The presentation is now over.
+发言现在结束。
+
+305
+00:01:59,159 --> 00:02:00,535
+Good work.
+干得不错
+
+306
+00:01:58,633 --> 00:02:00,745
+to give kind of a...
+给一种...
+
+307
+00:01:57,859 --> 00:02:01,187
+Fair subsidy for master's thesis.
+对硕士论文的公平补贴
+
+308
+00:02:00,377 --> 00:02:01,401
+and introduce
+并介绍和介绍
+
+309
+00:01:59,396 --> 00:02:01,604
+Așa că, în următoarea mea rețetă, vă mulțumim pentru vizionare.
+(a) a, en urmàtoarea mea reéetà, vã muluñumim pentru vizionare。
+
+310
+00:02:00,000 --> 00:02:02,336
+Take a moment and present yourself.
+慢慢来 现身吧
+
+311
+00:02:00,563 --> 00:02:02,643
+It would be a research paper.
+这将是一份研究论文。
+
+312
+00:01:51,506 --> 00:02:02,738
+that will include the paper and not written with me,  like the seminar is written with me and you, right?  I approve the topic and you approve it.
+包括论文,而不是与我一起写作, 就像研讨会是我和你共同写的,对吧?我同意这个主题,你同意它。
+
+313
+00:01:58,033 --> 00:02:03,089
+and the person who did this, it would be much better.
+以及做这件事的人, 会更好。
+
+314
+00:01:56,345 --> 00:02:03,705
+uh and it won't be technical okay no environmental impact or any other stuff
+并且不会是技术性的 好吧,没有环境影响 或任何其他东西
+
+315
+00:01:58,766 --> 00:02:04,046
+It contributes to different learning of the contractor with the safety and technical of the ground water.
+它有助于承包者对地下水的安全和技术进行不同的学习。
+
+316
+00:01:59,775 --> 00:02:04,351
+And your successors will be working with the faculty.
+你的继任者将和学院合作
+
+317
+00:02:01,544 --> 00:02:04,584
+in powers like Dr. McIntyre and...
+像麦金泰尔博士和...
+
+318
+00:02:03,011 --> 00:02:04,835
+Perhaps E as in...
+也许E是...
+
+319
+00:02:02,148 --> 00:02:05,572
+I'm not an exception, basically, because I would be able to do a role as a teacher.
+我不是一个例外,基本上, 因为我可以做一个老师的角色。
+
+320
+00:02:02,796 --> 00:02:05,772
+supervising a single or two students of Houston.
+监管休斯顿的一两个学生
+
+321
+00:02:04,812 --> 00:02:06,252
+If you could.
+如果你可以的话
+
+322
+00:01:59,532 --> 00:02:06,316
+And now, because I don't think we have any other formal presentation except for the week from now.
+现在,因为我认为除了这个星期外,我们没有其他正式的介绍。
+
+323
+00:02:04,734 --> 00:02:06,590
+When the time.
+当时间。
+
+324
+00:02:04,348 --> 00:02:06,876
+These questionnaires are going to...
+这些问卷会...
+
+325
+00:02:02,598 --> 00:02:07,430
+are going to be posted for you to fill out.  Please write your comments, okay?
+请写下你的评论,好吗?
+
+326
+00:02:06,297 --> 00:02:08,025
+You can come with us.
+你可以跟我们走
+
+327
+00:02:02,052 --> 00:02:08,132
+Please write your comments because that would be a very accessible experience for you.
+请写下你的评论,因为对于你来说,这将是一种非常容易获得的经验。
+
+328
+00:02:04,317 --> 00:02:08,509
+I am pretty happy with your output, I would say.
+我会说,我对你的产出相当满意。
+
+329
+00:02:02,384 --> 00:02:09,168
+So this is the third time I'm teaching this experimental seminar.  It's the best, the best group.
+这是我第三次教这个实验研讨会,这是最好的,最好的组。
+
+330
+00:02:06,896 --> 00:02:09,200
+You're sitting up for a break. Thanks.
+你坐了一下,谢谢
+
+331
+00:02:04,330 --> 00:02:09,834
+and attendance too, so if you write your comments, right?
+和出席, 所以如果你写你的评论,对不对?
+
+332
+00:02:05,892 --> 00:02:10,244
+Because we are not offering the pluses for ourselves.  I've been trained enough.
+因为我们不给自己带来好处 我已经受过足够的训练了
+
+333
+00:02:06,177 --> 00:02:10,465
+45 years of faculty career in different countries.
+在不同国家有45年的教师生涯。
+
+334
+00:02:06,041 --> 00:02:11,001
+degrees post-doc at the Swiss Federal Institute of Technology, I'm not saying you are trained.
+瑞士联邦理工学院的博士后学位 我不是说你受过训练
+
+335
+00:02:07,386 --> 00:02:11,194
+Help your friends, help your colleagues to get the training.
+帮助朋友 帮助同事接受培训
+
+336
+00:02:07,477 --> 00:02:11,541
+I'm telling you what's up in the store for students.
+我告诉你,在商店里 学生有什么。
+
+337
+00:02:05,484 --> 00:02:12,044
+in the fall so now he wants a three credit hours very similar
+现在他想要一个非常相似的 3个信用小时
+
+338
+00:02:10,230 --> 00:02:12,214
+and make it in depth.
+并使它深入。
+
+339
+00:02:08,578 --> 00:02:12,738
+Maybe six or eight babies, certainly babies.  I'm not speaking technically.
+也许六八个婴儿,当然是婴儿 我不是严格地说
+
+340
+00:02:09,793 --> 00:02:12,929
+Pretty much like your work today, right?
+跟你今天的工作很像,对吧?
+
+341
+00:02:11,432 --> 00:02:13,640
+Well, that's what they tell you.
+他们就是这么告诉你的
+
+342
+00:02:08,269 --> 00:02:13,709
+I'm going to read a paper as well, not only for our presentation, in a slight time.
+我也要去读一篇论文, 不仅仅是为我们的演讲, 在一点点时间。
+
+343
+00:02:12,616 --> 00:02:14,056
+Oh
+哦
+
+344
+00:02:14,307 --> 00:02:15,235
+Peace.
+和平 和平 和平 和平 和平 和平 和平 和平 和平 和平
+
+345
+00:02:10,992 --> 00:02:15,344
+For me, it was a pleasure to work with a leader I like.
+对我来说,很高兴能和我喜欢的领导人共事
+
+346
+00:02:12,238 --> 00:02:15,566
+Serious students, right?  I think you are all serious students.
+认真的学生,对吗?
+
+347
+00:02:14,205 --> 00:02:15,613
+はい、どうも
+_____________________________________________________________________________________________________________________________________________________________________________________________
+
+348
+00:02:14,310 --> 00:02:15,718
+No exception.
+无例外。
+
+349
+00:02:14,799 --> 00:02:15,951
+Thank you.
+谢谢
+
+350
+00:02:15,091 --> 00:02:16,659
+You had to be.
+你必须是。
+
+351
+00:02:10,915 --> 00:02:16,675
+So, because you arrived already to the master of immunity level.
+所以,因为你已经到达了 豁免水平的主人。
+
+352
+00:02:15,489 --> 00:02:16,930
+Silvester.
+仓鼠。
+
+353
+00:02:14,928 --> 00:02:17,296
+It makes a difference.
+这有其不同之处。
+
+354
+00:02:15,354 --> 00:02:17,658
+What else, guys? Any questions for me?
+还有什么问题要问我吗?
+
+355
+00:02:13,155 --> 00:02:18,019
+So we're going to see each other one more time.
+所以我们要再见面一次
+
+356
+00:02:14,830 --> 00:02:18,382
+What I do, you can send it up to me.
+我做什么,你可以把它给我。
+
+357
+00:02:14,430 --> 00:02:19,070
+The reports from seminars on paper, I prefer to read them in paper.
+研讨会的报告是纸面的,我更愿意用纸面阅读。
+
+358
+00:02:13,549 --> 00:02:19,533
+I had two cataracts, two cataract surgeries this semester.  That explains.
+我这学期有两个白内障 两个白内障手术
+
+359
+00:02:15,479 --> 00:02:19,703
+And I'm still kind of using glasses that are completely misfit.
+我仍然在使用 完全不合适的眼镜
+
+360
+00:02:18,273 --> 00:02:20,161
+I don't see better now.
+我现在不觉得更好了
+
+361
+00:02:18,252 --> 00:02:20,524
+But I cannot leave you without you.
+但我不能丢下你一个人
+
+362
+00:02:19,642 --> 00:02:20,730
+Obrigado.
+奥布里加多
+
+363
+00:02:19,158 --> 00:02:21,430
+I'm using bottom half of the glass.
+我在用玻璃的底部半部
+
+364
+00:02:18,648 --> 00:02:21,689
+When you are going to be 70 plus.
+当你70多岁的时候
+
+365
+00:02:19,326 --> 00:02:22,014
+We will go through the same process.
+我们将经历同样的进程。
+
+366
+00:02:19,443 --> 00:02:22,451
+totally painless, but very unpleasant.
+完全没有痛苦,但非常不愉快。
+
+367
+00:02:18,274 --> 00:02:22,818
+because you don't know whether the world is ending or it's not ending.
+因为你不知道世界是末日还是末日
+
+368
+00:02:19,456 --> 00:02:23,264
+Because you have a very bright light shining into your eyes.
+因为你眼中闪耀着闪耀的光芒
+
+369
+00:02:20,319 --> 00:02:23,583
+It's like end of the world atomic bomb or something.
+这就像世界末日 原子弹什么的。
+
+370
+00:02:20,694 --> 00:02:23,990
+It's very unusual.  I had it last week.  I had it.
+这很不寻常,上周我吃了,我吃了
+
+371
+00:02:22,391 --> 00:02:24,087
+Four weeks ago.
+四个星期前
+
+372
+00:02:22,700 --> 00:02:24,460
+So, guys.
+那么 伙计们 So, guys.
+
+373
+00:02:23,025 --> 00:02:24,753
+No, I still don't buy it.
+不,我还是不买它。
+
+374
+00:02:23,630 --> 00:02:25,006
+Am I doing this better?
+我做得更好吗?
+
+375
+00:02:21,596 --> 00:02:25,884
+Okay. See you, Louie.
+好的 再见 路易
+
+376
+00:02:13,934 --> 00:02:26,478
+So no questions, last chance, because next week we're going to have Dr. Gavrila, he's very comprehensive, very educative, so you all have a chance to chat with him.
+所以,没有问题,最后的机会, 因为下周我们将有 Gavrila博士, 他非常全面,非常教育, 所以你们都有一个机会 和他聊天。

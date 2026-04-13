@@ -1,0 +1,1071 @@
+[00:12.33 → 00:14.18]  [en]
+  a little summary, and then I'm going to introduce.
+  简单总结一下,然后我要介绍一下。
+
+[00:13.19 → 00:14.31]  [en]
+  Topic and
+  专题和
+
+[00:09.71 → 00:14.99]  [en]
+  and then I'll delve into the actual enabling technologies that are going to allow.
+  然后,我会研究 实际的赋能技术 将允许。
+
+[00:11.71 → 00:15.13]  [en]
+  health care medicine workers to make their way into the club.
+  保健医疗工作者进入俱乐部。
+
+[00:13.99 → 00:15.21]  [en]
+  Um
+  嗯
+
+[00:13.23 → 00:15.89]  [en]
+  and of course the element state that I didn't write this with AI.
+  当然,这个元素说 我没有写这个 与AI。
+
+[00:09.03 → 00:16.93]  [en]
+  pretty much just gave the summary this is a bit of a spoiler anyway so let's get over that so
+  简略地说,这只是一个 有点破坏器 反正,所以让我们来 克服这一点,所以
+
+[00:16.09 → 00:17.05]  [en]
+  Mm-hmm
+  嗯,嗯,嗯,嗯,嗯,嗯,嗯,嗯,嗯
+
+[00:11.46 → 00:17.34]  [en]
+  But you don't have to rush me, because you're not going to complete this in a whole hour.
+  但你不必催我 因为你一个小时后就完成不了了
+
+[00:15.12 → 00:17.36]  [en]
+  Always wanted to give it up for the presentation.
+  一直想为演讲放弃它
+
+[00:16.69 → 00:17.97]  [en]
+  so
+  so so, so, so, so, so, so, so, so,
+
+[00:18.01 → 00:20.06]  [en]
+  Why would we want to do that?
+  我们为什么要这样做?
+
+[00:14.42 → 00:20.37]  [en]
+  And that's exactly what the problem statement is here, is to make wearables a home of viable technology.
+  这正是这里的问题所在, 就是把穿戴器变成一个有可行技术的家。
+
+[00:18.48 → 00:20.40]  [en]
+  Because, um...
+  因为,嗯...
+
+[00:05.62 → 00:20.59]  [en]
+  Wearables are devices that you're going to wear.  Everyone's first thought is an Apple Watch.  But these are wearables in healthcare and medicine.  So there's a very different problem statement between a consumer wearable like an Apple Watch  and a medical wearable like the whole-tier monitor or a brochure monitor picture.
+  服装是你们将要穿戴的装置。 每个人首先想到的都是苹果观察。 但是这些是在医疗和医疗方面的穿戴。 因此,像苹果观察一样的消费者穿戴, 和像全层监视器或小册子监视图片那样的医疗穿戴, 之间有一个非常不同的问题陈述。
+
+[00:10.01 → 00:20.73]  [en]
+  The majority of wearables are consumer wearables because people don't really want to wear something medically.  That's not, you don't want to strap a big thing to your arm and walk around with it.
+  大部分的穿衣用品是消费者穿戴的,因为人们不想在医学上穿戴。那不是,你不想把一件大东西绑在手臂上,带着它走来走去。
+
+[00:12.49 → 00:22.00]  [en]
+  Essentially, and that's the bottom line there, literally, is it will improve access to care.  If people can get health care in their house, then they don't have to go to the hospital.
+  从根本上说,这就是这里的底线, 也就是说,它能改善人们获得护理的机会。如果人们可以在家中获得医疗保健,那么他们就不必去医院。
+
+[00:18.96 → 00:22.07]  [en]
+  That's a lot of time, that's a lot of money.
+  那是很多时间,这是很多钱。
+
+[00:20.17 → 00:22.22]  [en]
+  And if we could revise that.
+  如果我们能修改它。
+
+[00:11.51 → 00:22.55]  [en]
+  We can filter the signals, so this is an electroencephalogram that I've pictured as well as the data output,  and that's a whole bunch of data that previously would be in the lines.
+  我们可以过滤信号, 所以这是电子脑图,我所描绘的 和数据输出一样, 这是一大堆数据, 以前在线上。
+
+[00:22.97 → 00:23.58]  [en]
+  Thank you.
+  谢谢
+
+[00:19.40 → 00:23.59]  [en]
+  This will lower the cost of patients and even more.
+  这将降低病人的费用,甚至更低。
+
+[00:13.22 → 00:24.01]  [en]
+  filtering we could just say hey here's an event we need to look at instead of 24 hours a day, 7 days a week PEG records that we need to spend hours analyzing.
+  过滤器上我们可以只说"嘿"这里有一个事件 我们需要看 而不是24小时,每周7天 PEG记录 我们需要花小时分析。
+
+[00:20.49 → 00:24.11]  [en]
+  more testing and more diagnosis earlier on.
+  早点做更多的检测和诊断
+
+[00:23.28 → 00:24.21]  [en]
+  testing.
+  测试。
+
+[00:23.48 → 00:24.41]  [en]
+  Thank you.
+  谢谢
+
+[00:23.70 → 00:24.78]  [en]
+  It's a massive umbrella.
+  这是一个巨大的伞。
+
+[00:24.29 → 00:25.28]  [en]
+  So if you're going to talk about why.
+  所以,如果你要 谈谈为什么。
+
+[00:24.43 → 00:25.39]  [en]
+  to.
+  至.
+
+[00:22.46 → 00:26.40]  [en]
+  The first one is a non-sensitive fence or expense.
+  第一个是非敏感的围栏或费用。
+
+[00:20.32 → 00:26.40]  [en]
+  I wanted to focus on three things that I think are really impactful towards making wearables more viable.
+  我想集中谈三件事,我认为这三件事对使穿戴更加可行具有真正影响。
+
+[00:24.20 → 00:26.98]  [en]
+  which can detect the presence or lack of movement.
+  能够发现存在或没有行动。
+
+[00:25.97 → 00:27.06]  [en]
+  Solution
+  解决方案
+
+[00:25.79 → 00:27.33]  [en]
+  Thank you.
+  谢谢
+
+[00:25.19 → 00:27.94]  [en]
+  So a simple, it's a readout circuit.
+  很简单,这是一个读出电路。
+
+[00:27.20 → 00:28.48]  [en]
+  that current role.
+  这一目前的作用。
+
+[00:24.56 → 00:28.63]  [en]
+  just biasing the current for the use fit, which lets you re-write.
+  仅仅偏向当前, 以适合使用, 这样您就可以重新写入 。
+
+[00:24.35 → 00:29.70]  [en]
+  And that's, you know, that's great.  We can determine if someone's sweat, okay, not so much.
+  那很好 我们可以确定某人是否出汗
+
+[00:16.15 → 00:30.33]  [en]
+  Equation like that, and you can see that Vg minus Vs, any change in Vg is going to produce the same change in the source voltage so long as the current is biased and the source voltage is left.
+  像这样的方程式,你可以看到Vg减去Vs, Vg的任何变化 都会在源电压中产生相同的变化, 只要电流有偏向, 源电压也留下。
+
+[00:28.48 → 00:30.43]  [en]
+  process it uses a special
+  使用特殊
+
+[00:25.56 → 00:30.45]  [en]
+  When the sensing memory is being laid down, that's a very difficult problem.
+  当感应记忆被放下时, 这是一个非常困难的问题。
+
+[00:29.56 → 00:30.61]  [en]
+  Thank you.
+  谢谢
+
+[00:29.80 → 00:31.04]  [en]
+  That's what it gets you.
+  这就是它让你得到什么。
+
+[00:28.36 → 00:31.82]  [en]
+  which involves exposing the sensing membrane to high energy UV light.
+  包括将感应膜暴露于高能紫外线光线下。
+
+[00:28.58 → 00:31.88]  [en]
+  light traps electrons, and cite that later.
+  光捕捉电子 稍后引用
+
+[00:30.91 → 00:32.64]  [en]
+  Random offset.
+  随机偏移
+
+[00:26.29 → 00:32.78]  [en]
+  So every single misfit that comes off the line  has a different amount of electrons  trapped in the sensing layer.
+  所以每一个从线上掉下来的错误 都有不同数量的电子 被困在感应层里
+
+[00:31.48 → 00:32.80]  [en]
+  Have a good one.
+  玩得开心点
+
+[00:32.46 → 00:33.29]  [en]
+  Thank you.
+  谢谢
+
+[00:29.72 → 00:33.37]  [en]
+  Since it's a vet, right, it's essentially the same source training.
+  由于它是兽医,对, 它基本上是相同的源培训。
+
+[00:31.94 → 00:33.76]  [en]
+  with a regular MOSFET.
+  和普通的外科医生。
+
+[00:27.44 → 00:34.36]  [en]
+  differential amplifier that essentially subtracts out the effective temperature on the system.
+  能够基本上减去系统有效温度的差分放大器。
+
+[00:30.44 → 00:34.73]  [en]
+  because both of these, both of these pets will be affected by it.
+  因为两者,这两种宠物都会受到它的影响。
+
+[00:31.66 → 00:34.86]  [en]
+  Some of the same things, mainly temperature.
+  有些东西是一样的,主要是温度
+
+[00:32.99 → 00:35.16]  [en]
+  but the disrespect will only be...
+  但这种不尊重只会...
+
+[00:32.16 → 00:36.06]  [en]
+  You know, the is-vet effect of sensing membrane wall, the effect of is-vet and not.
+  你知道,感知膜墙的视觉效应, 和不感知的视觉效应。
+
+[00:33.29 → 00:36.27]  [en]
+  regular fed, so that's the only thing that doesn't get subtracted out.
+  定期进食,所以这是唯一不减掉的东西。
+
+[00:33.24 → 00:36.44]  [en]
+  The important thing is that you need to have the same input.
+  重要的是,你需要有相同的输入。
+
+[00:35.58 → 00:36.61]  [en]
+  matched.
+  匹配。
+
+[00:32.20 → 00:37.39]  [en]
+  Here's the time dependence here of scratch I promised, so the bottom three lines are B.
+  这是时间依赖 这里的抓痕,我答应, 所以底三行是B。
+
+[00:36.41 → 00:38.11]  [en]
+  So essentially...
+  所以说... So impractically...
+
+[00:37.19 → 00:38.15]  [en]
+  See you.
+  再见
+
+[00:27.60 → 00:38.48]  [en]
+  with the dependence on time.  That's pretty rural, dependence on time.  It's hard to get a good reading.  And the top lines are after the applications  .
+  依赖时间。这是很乡村的, 依赖时间。很难得到一个好的阅读。 而顶端的线就是在应用程序之后。
+
+[00:35.85 → 00:38.54]  [en]
+  actual gate of
+  实际开关
+
+[00:35.76 → 00:39.12]  [en]
+  Sorry, the body of the ispette is allowed to float.
+  抱歉, 委托人的身体允许浮动 。
+
+[00:35.08 → 00:39.72]  [en]
+  that the sensei membrane is attached to the body of the esophageal rather than the gait.
+  感官膜附着在食道的身体上 而不是步态上
+
+[00:35.86 → 00:39.98]  [en]
+  because all of that characteristics have to do with the difference between the body and game.
+  因为所有这些特征 都与身体和游戏的区别有关
+
+[00:36.85 → 00:40.57]  [en]
+  Normally we can tie the body to ground, but in this case...
+  通常我们可以把尸体绑在地上 但在这种情况下...
+
+[00:36.72 → 00:40.88]  [en]
+  we can tie the body to ground through the sensei membrane.
+  我们可以通过感官膜把尸体绑在地上
+
+[00:36.52 → 00:41.29]  [en]
+  which means the whole solution can be grounded now.  No electronic field.
+  这意味着整个解决方案现在可以依据。没有电子字段。
+
+[00:38.41 → 00:41.58]  [en]
+  in the solution, no electronic variation.
+  在解决方案中,没有电子变换。
+
+[00:39.15 → 00:41.84]  [en]
+  So the time dependence is resolved.
+  所以时间依赖性就解决了
+
+[00:36.51 → 00:42.18]  [en]
+  And there's a separate gate on the inside of the IC.
+  IC内部有一个单独的门
+
+[00:40.80 → 00:42.53]  [en]
+  coupled to the sensing membrane.
+  与感应膜结合。
+
+[00:40.28 → 00:42.84]  [en]
+  And that is what allows us to still have the...
+  这就是让我们仍然拥有...
+
+[00:41.38 → 00:43.20]  [en]
+  you know, this way of sensing effect.
+  你知道,这种感知效果的方式。
+
+[00:40.33 → 00:43.44]  [en]
+  Importantly, this uses a different
+  重要的是,这用的是不同的
+
+[00:41.67 → 00:43.72]  [en]
+  Fabrication Methods
+  制造方法
+
+[00:42.91 → 00:43.96]  [en]
+  patient with it.
+  耐心点
+
+[00:42.51 → 00:44.34]  [en]
+  that allows it to isolate the body.
+  让它能隔开身体
+
+[00:36.15 → 00:44.98]  [en]
+  this but there's absolutely nothing about this approach that changes the central circuit so we  absolutely
+  但是这个改变中央电路的方法 绝对没有任何改变 所以我们绝对
+
+[00:42.09 → 00:45.71]  [en]
+  Finally, it's the trap charge between the layers.
+  最后,这是层层之间的陷阱装药
+
+[00:43.61 → 00:46.11]  [en]
+  So there are a couple of approaches to mental health.
+  因此,对心理健康有几种办法。
+
+[00:37.62 → 00:46.17]  [en]
+  You know, just put one of these alternatively constructed is-vets  paired with a regular vet, and boom, that's the temperature and time dependence result.
+  你知道,只要放一个这些 或建的,是蔬菜 配上一个普通的兽医, 和繁荣, 这就是温度和时间依赖的结果。
+
+[00:44.96 → 00:46.63]  [en]
+  The first one I looked at was...
+  我第一眼看的那个是...
+
+[00:46.23 → 00:47.22]  [en]
+  on those items.
+  关于这些项目的报告。
+
+[00:41.45 → 00:47.31]  [en]
+  is removing the trap charge directly using a lower power unit light for a longer duration.
+  直接使用低功率装置灯光在更长的时间内去除陷阱电荷。
+
+[00:44.82 → 00:47.60]  [en]
+  extra electrons free from the bindings.
+  额外的电子,没有装订。
+
+[00:46.58 → 00:47.76]  [en]
+  Thank you.
+  谢谢
+
+[00:44.92 → 00:48.28]  [en]
+  random variance output unifies.
+  随机变化输出统一化 。
+
+[00:46.49 → 00:48.28]  [en]
+  outside.
+  外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 外面 。
+
+[00:46.15 → 00:48.71]  [en]
+  out 10 hours of exposure to the low-
+  暴露于低浓度的10小时之外
+
+[00:48.39 → 00:49.23]  [en]
+  We'll be right back.
+  我们马上回来
+
+[00:43.01 → 00:49.47]  [en]
+  This is great for small matches, and it's great if you want to fit really small space.
+  这对小火柴来说是件好事, 如果你想适应真正的小空间,那也是件好事。
+
+[00:46.69 → 00:49.86]  [en]
+  But it does involve a lot of post-processing, which might not be.
+  但它确实涉及到很多后处理, 这可能不是。
+
+[00:46.71 → 00:50.67]  [en]
+  capacitor that offsets that random charge variation.
+  能够抵消随机电荷变化的电容器
+
+[00:49.88 → 00:50.80]  [en]
+  then you can have...
+  然后你可以拥有...
+
+[00:41.77 → 00:51.28]  [en]
+  The alternative is to use gradient descent with programmable capacitor.  So you add some extra circuitry around the ISPET including the programmable capacitor.
+  替代品是使用可编程电容器的梯度下降。 所以, 您可以在 ISPET 周围添加一些额外的电路, 包括可编程电容器 。
+
+[00:47.93 → 00:51.54]  [en]
+  a massive array of dozens of ispets, however many you want.
+  数十块瓦片的庞大阵容 不论你想要多少
+
+[00:47.59 → 00:51.85]  [en]
+  and use the gradient set algorithm to manually unify.
+  并使用梯度设置算法手动统一。
+
+[00:49.46 → 00:51.93]  [en]
+  their outputs, essentially, just by
+  产出的产出,主要是
+
+[00:50.66 → 00:52.17]  [en]
+  sitting there with the program.
+  和节目一起坐在那里
+
+[00:51.66 → 00:52.52]  [en]
+  Okay.
+  好吧。 好吧。 好吧。 Okay.
+
+[00:51.65 → 00:52.77]  [en]
+  All right.
+  好吧。 好吧。 好吧。
+
+[00:51.53 → 00:52.94]  [en]
+  And I like it.
+  我喜欢它。
+
+[00:49.19 → 00:53.90]  [en]
+  I like this graph because this is showing the offset for each of the programmable gates.
+  我喜欢这个图,因为这个图显示每个可编程的大门的偏差。
+
+[00:49.87 → 00:54.06]  [en]
+  And it's completely unreadable because they all have different offsets.
+  这是完全无法读懂的 因为他们都有不同的偏差
+
+[00:53.23 → 00:54.25]  [en]
+  to the
+  会 议 日 和 排
+
+[00:53.28 → 00:54.40]  [en]
+  There ain't nothing for you to do.
+  你无事可做
+
+[00:52.14 → 00:54.76]  [en]
+  The next topic, energy harvesting.
+  下一个主题,能源收集。
+
+[00:54.07 → 00:56.02]  [en]
+  other parts of human movement.
+  人类运动的其他部分。
+
+[00:51.14 → 00:56.35]  [en]
+  But you can also use UV rays from the sun, solar power.  You can use
+  但是您也可以使用太阳的紫外线,太阳能。您也可以使用太阳的紫外线,太阳能。
+
+[00:44.50 → 00:56.43]  [en]
+  so you can harvest energy from the environment all kinds of sources there's a very common  you know little clip i've heard on the internet about japan using electric tiles to harvest energy
+  所以,你可以从环境中收获能源 各种来源。 有一个非常常见的,你知道 一个小剪辑我听说过 在互联网上听说过 关于日本人使用电砖 收获能源。
+
+[00:54.35 → 00:56.69]  [en]
+  So they use...
+  所以他们用...
+
+[00:51.72 → 00:56.78]  [en]
+  But as this example does, you can use radio waves in the air to harvest energy.
+  但正如这个例子一样,你可以使用空气中的无线电波来获取能量。
+
+[00:52.45 → 00:57.28]  [en]
+  a conductive thread that's woven into a piece of cloth
+  一种导导线 编织成一块布
+
+[00:56.37 → 00:57.30]  [en]
+  Please try.
+  请试一试
+
+[00:57.03 → 00:58.03]  [en]
+  It's great.
+  这是伟大的。
+
+[00:52.46 → 00:58.22]  [en]
+  And then each antenna has its own rectifier, so they call it a rectenna.
+  然后每根天线都有自己的矩形, 所以他们称它为直线。
+
+[00:57.33 → 00:58.36]  [en]
+  Um...
+  嗯... ... 嗯... Um...
+
+[00:52.28 → 00:59.16]  [en]
+  And it gets sewn on in all five directions, which allows the antenna to receive power from any direction it gets to.
+  它从所有五个方向缝合, 使天线从任何方向接收能量。
+
+[00:56.76 → 01:00.63]  [en]
+  And that's very, very valuable, especially for devices that don't.
+  这是非常非常非常有价值的, 特别是对于那些没有价值的装置来说。
+
+[00:58.88 → 01:01.31]  [en]
+  to take those 10 minutes of readings.
+  10分钟的读数。
+
+[00:59.29 → 01:01.63]  [en]
+  and then send that data back.
+  然后将数据发回。
+
+[01:00.32 → 01:02.53]  [en]
+  or squeezed or deformed.
+  或挤压或变形。
+
+[00:49.64 → 01:02.54]  [en]
+  need to be on 24-7 right if you want to take a reading on someone for 10 minutes out of every  hour this seems perfect they can wear a small battery it can fill up the battery over time  and then discharge the battery
+  24 -7需要在24 -7右上, 如果你想在每小时10分钟的时间内对某人进行读取, 这样他们最好能穿一个小电池, 电池可以填充电池, 然后排放电池。
+
+[00:54.70 → 01:02.54]  [en]
+  There's also energy harvesting from movement so the piezoelectric effect causes materials to
+  也从运动中收集能源 所以, 派生电效应 导致材料
+
+[01:00.90 → 01:02.70]  [en]
+  And the tribal ledger is finished.
+  部落帐本也完成了
+
+[01:01.18 → 01:03.00]  [en]
+  and this is what causes static.
+  这就是造成静态的原因。
+
+[00:33.76 → 01:03.11]  [en]
+  You can see here a little zoom-in of the rectifier circuit.  It's very small, very clever.  And in the bottom left, they were actually  able to run a low-power test of temperature and humidity  sensor for three full minutes using just the power  from this rectenna.  So they put the rectenna up to power  and then blasted some RF waves at their shirt, essentially.  And they were able to use that to power a microcontroller  and display some data.
+  您可以在这里看到直肠电路的放大点。 它非常小,非常聪明。 在左下角, 他们实际上能够用这个矩形的电源 进行低功率的温度和湿度传感器测试 整整三分钟。 所以他们把矩形放上电, 然后将一些RF波喷射到他们的衬衫上。 他们能够用它来给微控制器提供动力, 并展示一些数据。
+
+[01:00.88 → 01:03.28]  [en]
+  certain materials are different.
+  某些材料是不同的。
+
+[01:02.45 → 01:04.15]  [en]
+  more than they want to keep on another.
+  而不是他们想再继续下去。
+
+[00:59.45 → 01:04.16]  [en]
+  surface charge friendliness, and when you rub them together, charge is going to be on one material.
+  表面充电方便, 当你把它们一起擦时, 充电将是一个材料。
+
+[00:59.63 → 01:04.79]  [en]
+  And both of these, you can create some kind of mechanism.  And that's why I want to write that.
+  这两个,你可以创建某种机制。这就是为什么我想写这个。
+
+[01:02.04 → 01:05.15]  [en]
+  It moves current through the wire when you swing it.
+  当你挥动电线时,它会通过电线移动。
+
+[01:02.78 → 01:05.25]  [en]
+  Squish and un-squish.
+  压抑和无压抑。
+
+[01:04.23 → 01:05.41]  [en]
+  and
+  和
+
+[01:04.63 → 01:05.62]  [en]
+  is
+  是
+
+[01:03.88 → 01:05.96]  [en]
+  I'm not the source.
+  我不是线人
+
+[01:04.84 → 01:06.24]  [en]
+  I'll attempt to use the...
+  我会尝试使用...
+
+[01:04.92 → 01:06.52]  [en]
+  effects together to
+  效果一起产生
+
+[01:05.33 → 01:06.87]  [en]
+  on the security front here.
+  在安全前方在这里。
+
+[01:06.53 → 01:07.23]  [en]
+  it.
+  它。 它。 它。 它。 它。
+
+[01:04.33 → 01:07.65]  [en]
+  So he was essentially a plastic in a V-shape.
+  所以他基本上就是V形的塑胶
+
+[01:05.95 → 01:07.77]  [en]
+  And they have a
+  他们有一个
+
+[01:04.03 → 01:08.25]  [en]
+  Now, if he is an electric material in the crook of the V,
+  如果他是V级骗子的电动材料
+
+[01:06.43 → 01:08.64]  [en]
+  As you move, the program will be engaged.
+  当你移动时,程序将会被激活。
+
+[01:07.45 → 01:08.83]  [en]
+  Hinged.
+  丁盖德 Hinged.
+
+[01:07.19 → 01:08.98]  [en]
+  and that generates...
+  产生...
+
+[01:08.24 → 01:09.26]  [en]
+  potential
+  潜在潜力
+
+[01:07.66 → 01:09.61]  [en]
+  Tidal Electric Generator
+  Tidal 发电机
+
+[01:07.95 → 01:10.22]  [en]
+  Let's pick up.
+  我们接电话吧
+
+[01:06.07 → 01:10.23]  [en]
+  It's just the rest of the beat as it makes full surface contact.
+  这只是其余的节拍,因为它使 完全表面接触。
+
+[01:09.50 → 01:10.50]  [en]
+  of the generator.
+  发电机。
+
+[01:09.95 → 01:10.72]  [en]
+  Thank you.
+  谢谢
+
+[01:06.75 → 01:11.58]  [en]
+  This is great, except you can see in these diagrams that both of these methods have...
+  这是伟大的, 除了你可以看到这些图表 这两种方法都有...
+
+[01:09.97 → 01:12.24]  [en]
+  but they're going to be rectified somehow.
+  但是,它们会得到某种方式的纠正。
+
+[01:08.03 → 01:12.29]  [en]
+  up and down weight, so we don't just put out straight DC power down in medicine.
+  上下减重,所以我们不只是 直接把DC的电力 倒在医学上。
+
+[01:08.18 → 01:12.79]  [en]
+  So they have this really tiny four centimeter by four centimeter wire.
+  所以他们用四厘米的铁丝网 有了这个小的四厘米
+
+[01:09.89 → 01:12.83]  [en]
+  And interestingly, the piezoelectric generator...
+  有趣的是, 派生电...
+
+[01:10.36 → 01:13.11]  [en]
+  It doesn't have enough voltage to be able to...
+  它没有足够的电压来...
+
+[01:11.44 → 01:13.61]  [en]
+  to overcome the
+  和《公约》战胜干旱和
+
+[01:11.50 → 01:13.74]  [en]
+  Threshold of diode.
+  二极线的阈值。
+
+[01:12.53 → 01:14.45]  [en]
+  And then down here.
+  然后在这下面
+
+[01:08.97 → 01:15.11]  [en]
+  is this is the charge pump so the ring oscillator
+  这是充电泵,所以环振动器
+
+[01:06.96 → 01:15.15]  [en]
+  So the rectifier, that top rectifier, the new diodes,  that's actually an off-mount transistor being used to simulate a diode.
+  所以整形器, 顶部整形器, 新的二极管, 实际上是用来模拟二极管的 离上式晶体管。
+
+[01:11.28 → 01:15.66]  [en]
+  When this goes from low to high, you can't change the voltage or it is a hazard.
+  当从低到高, 你不能改变电压 或这是一个危险。
+
+[01:15.28 → 01:16.30]  [en]
+  causes it to overwork.
+  导致工作负担过重。
+
+[01:15.20 → 01:16.55]  [en]
+  for this guy over here.
+  这家伙在这里。
+
+[01:15.02 → 01:16.85]  [en]
+  the same effect down here.
+  同样的效果在这里下面。
+
+[01:16.13 → 01:17.38]  [en]
+  Thank you.
+  谢谢
+
+[01:14.06 → 01:17.48]  [en]
+  Kiesel electric voltage plus two tenths tribal electric voltage.
+  Kiesel电压加二十分二的部落电压
+
+[01:16.39 → 01:17.77]  [en]
+  Honestly, I didn't know.
+  老实说,我不知道
+
+[01:15.06 → 01:18.52]  [en]
+  Pull this up, full centimeter by full centimeter circuit.
+  拉起这个,全厘米以整厘米的电路。
+
+[01:16.54 → 01:18.85]  [en]
+  And here's just the results.
+  这里只是结果。
+
+[01:12.15 → 01:18.96]  [en]
+  I really could imagine someone walking around with that.  Maybe a carpet or a shirt.
+  我真的可以想象有人带着它走来走去,也许有地毯或衬衫
+
+[01:14.61 → 01:19.51]  [en]
+  So you can see that their simulation and experiment  are very on par with each other.
+  所以你可以看到他们的模拟和实验 彼此非常相似。
+
+[01:16.75 → 01:19.75]  [en]
+  And these graphs on the page.
+  和这些图表 在页面上。
+
+[01:18.59 → 01:19.90]  [en]
+  incredible efficiency
+  效率令人难以置信
+
+[01:19.00 → 01:20.18]  [en]
+  That's it.  Oh.
+  就是这样
+
+[01:18.80 → 01:20.84]  [en]
+  especially
+  特别特别特别特别
+
+[01:19.60 → 01:21.14]  [en]
+  Last is data handling.
+  最后是数据处理。
+
+[01:17.58 → 01:21.74]  [en]
+  So you produce a massive amount of data  if you're monitoring someone 24 hours a day.
+  所以如果你每天24小时监视某人 就会产生大量的数据
+
+[01:14.01 → 01:22.87]  [en]
+  and whether you're going to store the data on the device or transmit it somewhere else,  there are costs associated with that.  You're going to have to build a big memory.
+  无论是将数据存储在设备上 还是将数据传输到别处 都有相关成本
+
+[01:21.37 → 01:23.13]  [en]
+  Especially if you're, you know...
+  特别是如果你是,你知道...
+
+[01:22.86 → 01:23.69]  [en]
+  Thank you.
+  谢谢
+
+[01:13.39 → 01:23.92]  [en]
+  a lot of computational power if you want to store it on the device,  especially if you want to process it on the device.  If you're going to be constantly transmitting data,  that has a high energy cost as well.
+  如果您想要将其存储在设备上, 特别是如果您想要在设备上处理它, 计算能力会很大。 如果您要不断传输数据, 能量成本也很高 。
+
+[01:17.91 → 01:24.06]  [en]
+  indoors, perhaps a lot of walls between you and the base station, and a constant lot of  your energy resources.
+  室内,也许有很多墙 在你和基地站之间, 和不断的你大量的能量资源。
+
+[01:21.85 → 01:24.15]  [en]
+  Then you can do anything else.
+  那样你就可以做别的事了
+
+[01:23.46 → 01:24.46]  [en]
+  Great job.
+  伟大的工作。
+
+[01:22.86 → 01:24.71]  [en]
+  Try to send your packet.
+  尝试发送您的包。
+
+[01:23.85 → 01:25.32]  [en]
+  work. Try again, try again, try again.
+  工作。再试一次,再试一次,再试一次。
+
+[01:25.25 → 01:26.11]  [en]
+  ever.
+  永远
+
+[01:24.80 → 01:26.75]  [en]
+  But for one of them, he just isn't making it.
+  但对于其中一人来说,他只是没能成功
+
+[01:17.04 → 01:26.86]  [en]
+  But after a certain amount of time, you've got to say stop.  You've got to say, okay, let's use the coded file because clearly we're too far from the base station.
+  但过了一段时间,你必须说停。你必须说,好吧,让我们使用密码文件 因为显然我们离基地站太远了。
+
+[01:22.05 → 01:27.05]  [en]
+  It's more reliable, even if it's less energy efficient.
+  更可靠,即使能源效率不高
+
+[01:24.16 → 01:27.78]  [en]
+  compared to the other threshold plans.
+  与其他阈值计划相比。
+
+[01:26.50 → 01:28.01]  [en]
+  And on the left.
+  左边也是
+
+[01:19.66 → 01:28.21]  [en]
+  So you can see here the threshold time of five minutes was chosen because it bottoms out both the packet loss rate and the current consumption.
+  您可以在这里看到 5分钟的起始时间是选择的 因为它压倒了 包装损失率和当前消耗量。
+
+[01:26.25 → 01:29.38]  [en]
+  Why would we ever have the money if we would just use the code of five for everything?
+  如果我们每件事情都用5的密码 我们怎么会有这笔钱呢?
+
+[01:17.71 → 01:29.58]  [en]
+  you can just see that the two-minute threshold time was swapping back and forth way too frequently  right there's no way that you need to use decoder 5 for every single packet or else
+  你可以看到,两分钟的门槛时间是 来来回互换的太频繁了 你不可能每包都用代码解码器5或者其他的
+
+[01:28.19 → 01:29.98]  [en]
+  Thanks for watching!
+  感谢观看!
+
+[01:27.15 → 01:30.54]  [en]
+  a lot of things that are kind of coming together to enable.
+  很多事情都是为了帮助我们而聚集在一起的。
+
+[01:26.87 → 01:30.78]  [en]
+  at-home medical devices
+  家用医疗设备
+
+[01:19.33 → 01:30.98]  [en]
+  Whereas with the 5, you know, the 10 minutes was too long, right?  It wasn't switching fast enough that we keep trying with the 1M  far past that 8 attempts threshold where you might have lost those minutes.
+  至于5,你知道,10分钟是太长了,对不对?
+
+[01:29.87 → 01:31.09]  [en]
+  you can take it to the middle line.
+  你可以把它带到中间线。
+
+[01:29.62 → 01:31.29]  [en]
+  so many more things
+  如此多的事情
+
+[01:29.83 → 01:31.62]  [en]
+  the pH.
+  PH值。
+
+[01:29.82 → 01:31.96]  [en]
+  world is depending on the sense of memory.
+  世界取决于记忆感。
+
+[01:29.68 → 01:32.46]  [en]
+  We wanted as long as it could have that input here.
+  我们希望它能在这里有这种投入。
+
+[01:29.79 → 01:32.70]  [en]
+  The energy harvesting are a lot of people.
+  能源收获是很多人。
+
+[01:31.95 → 01:32.94]  [en]
+  homes.
+  家庭。
+
+[01:30.86 → 01:33.17]  [en]
+  device
+  设备设备
+
+[01:31.85 → 01:33.45]  [en]
+  data that they need.
+  他们需要的数据。
+
+[01:32.89 → 01:33.72]  [en]
+  Yeah.
+  对
+
+[01:33.13 → 01:34.38]  [en]
+  is enabling those medical...
+  帮助那些医疗...
+
+[01:33.32 → 01:34.57]  [en]
+  Transmitting
+  发送传送
+
+[01:33.95 → 01:34.94]  [en]
+  than they are.
+  而不是他们。
+
+[01:32.12 → 01:35.29]  [en]
+  Taking in to base station and...
+  接入基地站...
+
+[01:33.69 → 01:35.45]  [en]
+  Let's go.
+  我们走
+
+[01:34.64 → 01:35.82]  [en]
+  with that.
+  和那个。
+
+[01:32.58 → 01:36.19]  [en]
+  His success is that he has tapped
+  他的成功在于他已经成功
+
+[01:34.85 → 01:36.54]  [en]
+  with the fastener.
+  紧紧的紧紧的紧紧的紧紧的紧紧的紧紧的紧紧的紧扣,
+
+[01:35.63 → 01:37.26]  [nn]
+  Du må svara vant.
+  杜马斯瓦拉范特
+
+[01:36.19 → 01:37.37]  [en]
+  Papers.
+  论文。
+
+[01:35.44 → 01:37.77]  [en]
+  about the topic that he was talking about.
+  关于他所谈论的话题
+
+[01:37.35 → 01:38.34]  [en]
+  Uh...
+  呃... Uh...
+
+[01:37.23 → 01:38.39]  [en]
+  Look.
+  听着
+
+[01:36.31 → 01:38.75]  [en]
+  I agree so did State Service Magazine.
+  我同意国家服务杂志也同意
+
+[01:36.02 → 01:39.13]  [en]
+  Now, flirt it into paper.  Then...
+  现在,把它调整成纸,然后...
+
+[01:34.85 → 01:39.62]  [en]
+  Survey of wearable devices and challenges.  Answering communication services and tutorials.
+  对可磨损设备和挑战的调查,答复通信服务和辅导。
+
+[01:33.34 → 01:40.19]  [en]
+  And then finally, what I was at the end of the day saying  was certainly, I took free access.  So.
+  最后,我最后说, 确实,我自由进入。所以。
+
+[01:29.46 → 01:40.92]  [en]
+  Perhaps the other papers are a little bit more specialized,  bringing down the topic.  But if you want to find out, really, about the mainstream.
+  也许其他的论文更专门化一点, 降低了这个话题。但是如果你想知道,关于主流。
+
+[01:37.59 → 01:41.21]  [en]
+  uh center because this center is supposed to
+  中心,因为这个中心应该
+
+[01:32.85 → 01:41.30]  [en]
+  trend, achievements, or technical challenges of technology go to credible journals.  That's the message of this.
+  科技的潮流、成就或技术挑战 都传到可信的杂志上
+
+[01:40.47 → 01:41.33]  [en]
+  Thank you.
+  谢谢
+
+[01:40.31 → 01:41.62]  [en]
+  Thank you.
+  谢谢
+
+[01:36.90 → 01:42.31]  [en]
+  to explore or give you some habits, some practice.
+  来探索或给你一些习惯, 一些实践。
+
+[01:41.10 → 01:43.08]  [en]
+  and look at
+  并查看
+
+[01:34.10 → 01:43.15]  [en]
+  Trust being something that you haven't been used to studying because there is not enough space when you are in the room.
+  信任你没有习惯于学习的东西 因为你在房间里时空间不够
+
+[01:38.68 → 01:43.48]  [en]
+  and the problems of the state of the earth.
+  以及地球状况的问题。
+
+[01:38.53 → 01:43.94]  [en]
+  And the trap here is that any topic that you...
+  这里的圈套是 任何你...
+
+[01:41.68 → 01:44.30]  [nn]
+  Let's do this.  Let's serve them all.
+  开始吧,为大家服务吧
+
+[01:40.03 → 01:44.73]  [en]
+  Returns to the immense amount of job, job, plainly job.
+  回到大量的工作 工作 简单的工作
+
+[01:44.17 → 01:45.42]  [en]
+  Thank you very much.
+  非常感谢。
+
+[01:31.91 → 01:46.09]  [en]
+  whether gossip or irrelevant or secondary or virtually important and so on.  So he was lucky or he was tough enough to get access to the best sources.  And I think this is one of the main messages.
+  无论是流言或无关,还是次要或几乎重要等等。所以他很幸运,或者他非常努力地接触最佳来源。我想这是一条主要信息之一。
+
+[01:44.53 → 01:46.39]  [en]
+  Move somewhere I don't know.
+  搬到我不知道的地方去
+
+[01:46.00 → 01:46.83]  [en]
+  Thank you.
+  谢谢
+
+[01:33.05 → 01:47.45]  [en]
+  And I like the timing of it as well, so you got straight 16, mostly 16 out of 16.  Mostly, I was pretty happy with your seminar deliveries, but unfortunately the 6th student has...
+  我也喜欢这个时机, 所以你得到16分中的16分, 大部分是16分中的16分, 多数情况下,我对你的研讨会送货很满意, 但不幸的是,第6个学生...
+
+[01:43.82 → 01:47.50]  [en]
+  Now, the second step is, you know, I'm going to...
+  现在,第二步是,你知道,我要...
+
+[01:44.80 → 01:47.68]  [nn]
+  I have somebody to soon teach...
+  我马上要教人...
+
+[01:45.82 → 01:48.19]  [en]
+  A seminar class for...
+  研讨会班...
+
+[01:45.74 → 01:48.69]  [en]
+  No engineering students are going to pay you high.
+  没有工程学生会付你高薪
+
+[01:45.43 → 01:49.05]  [en]
+  And I may find that all of these price of little...
+  我可能发现这些代价...
+
+[01:46.66 → 01:49.19]  [en]
+  Seminars.
+  研讨会。
+
+[01:48.28 → 01:49.59]  [ko]
+  어
+  _____________________________________________________________________________________________________________________________________________________________________________________________
+
+[01:48.89 → 01:49.79]  [en]
+  Thank you.
+  谢谢
+
+[01:47.27 → 01:50.18]  [nn]
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
+  1、2、3、4、5、6、7、8、9、10。
+
+[01:47.64 → 01:50.33]  [en]
+  for non-EDU students.
+  供非EDU学生使用。
+
+[01:45.23 → 01:51.06]  [en]
+  So if I do, I will review them, because I have to review your slides one after another.
+  因此,如果我这样做,我将审查它们,因为我必须逐一审查你们的幻灯片。
+
+[01:50.70 → 01:51.76]  [en]
+  Thank you.
+  谢谢
+
+[01:47.29 → 01:51.90]  [en]
+  give you and most likely will give you in one paper right about
+  给予你,你很可能 在一个纸上给你的权利
+
+[01:39.36 → 01:51.91]  [en]
+  My attention is not enough to listen to what you said and look at your slides and comment and digest it as a whole.  So I'm going to go back to your slides.
+  我的注意力不足以倾听你所说的话,看你们的幻灯片,评论和消化整个幻灯片。所以我要回到你们的幻灯片。
+
+[01:50.43 → 01:52.22]  [en]
+  But then...
+  但是后来... But then...
+
+[01:48.89 → 01:52.57]  [en]
+  I may ask you over email to...
+  我可能会通过电子邮件请求你...
+
+[01:50.51 → 01:53.26]  [en]
+  some additional sub-corrections.
+  一些额外的子更正。
+
+[01:46.39 → 01:53.43]  [en]
+  If I find the topic suitable enough for that non-engineering AI class, I may ask you for...
+  如果我觉得这个话题够适合 那个非工程的AI类课的话 我可以请你...
+
+[01:51.60 → 01:53.52]  [en]
+  friendly purchase.
+  友好购买 。

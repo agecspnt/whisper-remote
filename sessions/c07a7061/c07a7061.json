@@ -1,0 +1,29 @@
+{
+  "session_id": "c07a7061",
+  "name": "pure-zh-test",
+  "created_at": 1776099374.083578,
+  "subtitles": [
+    {
+      "id": "a3275027",
+      "session_id": "c07a7061",
+      "start_time": 0.0,
+      "end_time": 0.843,
+      "original_language": "zh",
+      "original_text": "今天天气非常好,我们来测试一下实时翻译系统的效果。",
+      "translated_text": "The weather is very good today, let's test the effect of the real-time translation system.",
+      "is_interim": false,
+      "created_at": 1776099374.9270577
+    },
+    {
+      "id": "6ede7acd",
+      "session_id": "c07a7061",
+      "start_time": 0.0,
+      "end_time": 1.517,
+      "original_language": "zh",
+      "original_text": "人工智能技术发展迅速,给生活带来了很多便利。",
+      "translated_text": "The rapid development of AI technology has brought a lot of convenience to life.",
+      "is_interim": false,
+      "created_at": 1776099375.6006908
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "whisper-remote",
+  "version": "1.0.0",
+  "description": "实时双语字幕客户端",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron .",
+    "dist": "electron-builder --mac --publish always",
+    "build": "electron-builder --mac",
+    "build:unsigned": "electron-builder --mac --config.mac.identity=null"
+  },
+  "build": {
+    "appId": "com.beato.whisper-remote",
+    "productName": "Whisper Remote",
+    "copyright": "Copyright © 2025 Bea-to",
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**"
+    ],
+    "mac": {
+      "target": [
+        { "target": "dmg", "arch": ["universal"] },
+        { "target": "zip", "arch": ["universal"] }
+      ],
+      "category": "public.app-category.utilities",
+      "icon": "build/icon.icns",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist",
+      "notarize": false
+    },
+    "dmg": {
+      "title": "Whisper Remote",
+      "contents": [
+        { "x": 130, "y": 200 },
+        { "x": 400, "y": 200, "type": "link", "path": "/Applications" }
+      ],
+      "window": { "width": 540, "height": 360 }
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "agecspnt",
+      "repo": "whisper-remote",
+      "releaseType": "release"
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  }
+}

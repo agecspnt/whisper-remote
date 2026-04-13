@@ -1,0 +1,36 @@
+name: Release macOS App
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-mac:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: app/package-lock.json
+
+      - name: Install dependencies
+        working-directory: app
+        run: npm ci
+
+      # Build universal DMG + ZIP and publish to GitHub Releases.
+      # Code signing is skipped (CSC_IDENTITY_AUTO_DISCOVERY=false).
+      # Add CSC_LINK / CSC_KEY_PASSWORD secrets and set notarize: true
+      # in package.json if you want a fully signed & notarized release.
+      - name: Build and publish
+        working-directory: app
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+        run: npm run dist

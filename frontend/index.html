@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whisper Remote — 实时双语字幕</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- Header -->
+  <header class="header">
+    <span id="status-dot" class="status-dot"></span>
+    <span class="header-title">Whisper <span>Remote</span></span>
+    <span style="font-size:12px;color:var(--text-muted)">实时双语字幕</span>
+    <div class="header-spacer"></div>
+    <a class="header-link" href="/subtitle" target="_blank">字幕视图 ↗</a>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <!-- New session -->
+    <div class="sidebar-section">
+      <div class="sidebar-label">新建会话</div>
+      <div class="control-row">
+        <input type="text" id="new-session-name" placeholder="会话名称（可选）">
+      </div>
+      <button class="btn btn-primary" style="width:100%" onclick="createSession()">
+        + 创建会话
+      </button>
+    </div>
+
+    <!-- 当前设备输入 (任何浏览此页的设备均有效) -->
+    <div class="sidebar-section">
+      <div class="sidebar-label" title="使用打开此页面的设备上的麦克风和文件">
+        此设备输入
+        <span style="font-weight:400;color:var(--text-muted);font-size:9px;margin-left:4px">当前浏览器</span>
+      </div>
+
+      <!-- Browser mic device selector -->
+      <div class="control-row" style="margin-bottom:6px;gap:4px">
+        <select id="browser-mic-device" style="font-size:12px;flex:1;min-width:0"></select>
+        <button class="btn btn-ghost btn-sm" onclick="loadBrowserDevices()" title="列举此设备麦克风">↺</button>
+      </div>
+
+      <!-- Browser mic -->
+      <button id="btn-browser-mic" class="btn btn-ghost btn-sm" style="width:100%;margin-bottom:8px"
+              onclick="toggleBrowserMic()">
+        🎙 此设备麦克风
+      </button>
+
+      <!-- File upload -->
+      <div class="control-row" style="flex-direction:column;align-items:stretch;gap:6px">
+        <input type="file" id="file-input" accept="audio/*,video/*"
+               style="font-size:12px;color:var(--text-muted)">
+        <button class="btn btn-ghost btn-sm" onclick="uploadFile()">▲ 上传本地文件</button>
+      </div>
+
+      <!-- Upload progress -->
+      <div id="upload-progress-wrap" style="display:none;margin-top:8px">
+        <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text-muted);margin-bottom:4px">
+          <span id="upload-filename" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:140px"></span>
+          <span id="upload-pct">0%</span>
+        </div>
+        <div style="background:var(--surface2);border-radius:4px;height:6px;overflow:hidden">
+          <div id="upload-bar" style="height:100%;width:0%;background:var(--accent);border-radius:4px;transition:width .3s"></div>
+        </div>
+        <div id="upload-phase" style="font-size:10px;color:var(--text-muted);margin-top:3px">准备中…</div>
+      </div>
+
+      <!-- Upload error -->
+      <div id="upload-error-box" style="display:none;margin-top:8px;padding:8px 10px;background:rgba(224,82,96,.12);border:1px solid var(--danger);border-radius:8px;font-size:12px;color:var(--danger);word-break:break-all">
+      </div>
+    </div>
+
+    <!-- 服务器端输入 (仅在运行服务的那台机器上有效) -->
+    <div class="sidebar-section">
+      <div class="sidebar-label" title="控制服务器主机上的音频设备">
+        服务器输入
+        <span style="font-weight:400;color:var(--text-muted);font-size:9px;margin-left:4px">主机设备</span>
+      </div>
+
+      <!-- Server mic -->
+      <div class="control-row">
+        <label style="min-width:36px">麦克</label>
+        <select id="mic-device" style="font-size:12px"></select>
+      </div>
+      <div class="control-row" style="margin-bottom:6px">
+        <button class="btn btn-ghost btn-sm" onclick="micStart()">▶ 开始</button>
+        <button class="btn btn-ghost btn-sm" onclick="micStop()">■ 停止</button>
+      </div>
+
+      <!-- System audio -->
+      <div class="control-row">
+        <label style="min-width:36px;font-size:12px">系统音</label>
+        <button class="btn btn-ghost btn-sm" onclick="systemStart()">▶ 开始</button>
+        <button class="btn btn-ghost btn-sm" onclick="systemStop()">■ 停止</button>
+      </div>
+    </div>
+
+    <!-- Transcription settings -->
+    <div class="sidebar-section">
+      <div class="sidebar-label">转写设置</div>
+      <div class="control-row" style="justify-content:space-between;margin-bottom:2px">
+        <label style="font-size:12px">句段延迟</label>
+        <span id="sentence-gap-label" style="font-size:12px;color:var(--accent);font-weight:600;min-width:32px;text-align:right">1.5s</span>
+      </div>
+      <input type="range" id="sentence-gap" min="0" max="4" step="0.1" value="1.5"
+             style="width:100%;accent-color:var(--accent)"
+             oninput="onSentenceGapChange(this.value)">
+      <div class="control-row" style="justify-content:space-between;margin-top:2px">
+        <span style="font-size:10px;color:var(--text-muted)">0s 即时</span>
+        <span style="font-size:10px;color:var(--text-muted)">4s 完整句</span>
+      </div>
+    </div>
+
+    <!-- Export -->
+    <div class="sidebar-section">
+      <div class="sidebar-label">导出</div>
+      <div class="control-row">
+        <button class="btn btn-ghost btn-sm" onclick="exportSession('srt')">SRT</button>
+        <button class="btn btn-ghost btn-sm" onclick="exportSession('txt')">TXT</button>
+        <button class="btn btn-ghost btn-sm" onclick="exportSession('json')">JSON</button>
+      </div>
+    </div>
+
+    <!-- Session list -->
+    <div class="sidebar-section" style="flex:1">
+      <div class="sidebar-label">历史会话</div>
+      <div id="session-list"></div>
+    </div>
+
+  </aside>
+
+  <!-- Main content -->
+  <main class="main">
+    <div class="toolbar">
+      <span id="session-title" class="session-title-display" style="color:var(--text-muted)">
+        请选择或创建会话
+      </span>
+      <span id="session-badge" class="session-status-badge"></span>
+      <div class="toolbar-spacer"></div>
+      <button class="btn btn-ghost btn-sm" onclick="stopSession()">停止会话</button>
+    </div>
+
+    <!-- Subtitle feed -->
+    <div id="subtitle-feed" class="subtitle-feed">
+      <div id="empty-state" class="empty-state">
+        <div class="empty-state-icon">💬</div>
+        <p>创建会话并选择音频源后，字幕将在此实时显示</p>
+        <p style="font-size:12px;color:var(--text-muted)">
+          支持中英文混合 · 实时双语字幕
+        </p>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<div id="toast"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

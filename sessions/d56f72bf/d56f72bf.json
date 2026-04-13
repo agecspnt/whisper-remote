@@ -1,0 +1,73 @@
+{
+  "session_id": "d56f72bf",
+  "name": "Session 8",
+  "created_at": 1776102447.1051655,
+  "subtitles": [
+    {
+      "id": "6c53c353",
+      "session_id": "d56f72bf",
+      "start_time": 23.863,
+      "end_time": 25.111,
+      "original_language": "fr",
+      "original_text": "Réalisé par Neo035",
+      "translated_text": "雷阿利塞·前新年035",
+      "is_interim": false,
+      "created_at": 1776102472.2157168
+    },
+    {
+      "id": "b4fa666b",
+      "session_id": "d56f72bf",
+      "start_time": 25.805,
+      "end_time": 28.077,
+      "original_language": "en",
+      "original_text": "Hi, can you hear me?",
+      "translated_text": "嗨,你能听到我吗?",
+      "is_interim": false,
+      "created_at": 1776102475.1822317
+    },
+    {
+      "id": "1a3ef36c",
+      "session_id": "d56f72bf",
+      "start_time": 28.985,
+      "end_time": 31.929,
+      "original_language": "en",
+      "original_text": "I want to know something you know",
+      "translated_text": "我想知道你所知道的",
+      "is_interim": false,
+      "created_at": 1776102479.0345693
+    },
+    {
+      "id": "a28ebe71",
+      "session_id": "d56f72bf",
+      "start_time": 32.16,
+      "end_time": 34.528,
+      "original_language": "en",
+      "original_text": "Can you translate this for me?",
+      "translated_text": "你能帮我翻译一下吗?",
+      "is_interim": false,
+      "created_at": 1776102481.63354
+    },
+    {
+      "id": "417fed8a",
+      "session_id": "d56f72bf",
+      "start_time": 34.733,
+      "end_time": 36.013,
+      "original_language": "en",
+      "original_text": "Please.",
+      "translated_text": "拜托了 请 Please.",
+      "is_interim": false,
+      "created_at": 1776102483.1179404
+    },
+    {
+      "id": "109489b8",
+      "session_id": "d56f72bf",
+      "start_time": 36.666,
+      "end_time": 37.594,
+      "original_language": "en",
+      "original_text": "Thank you.",
+      "translated_text": "谢谢",
+      "is_interim": false,
+      "created_at": 1776102484.6987019
+    }
+  ]
+}

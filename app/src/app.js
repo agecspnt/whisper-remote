@@ -600,6 +600,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     $('server-url').value = state.serverUrl;
   }
 
+  // Persist URL whenever user edits it (even before clicking refresh)
+  $('server-url').addEventListener('change', () => {
+    let url = $('server-url').value.trim();
+    if (!url) return;
+    if (!/^https?:\/\//i.test(url)) { url = 'http://' + url; $('server-url').value = url; }
+    if (window.ea) window.ea.setSettings({ serverUrl: url }).catch(() => {});
+  });
+
   setupUpdater();
   checkHealth();
   setInterval(checkHealth, 15000);

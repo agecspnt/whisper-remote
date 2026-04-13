@@ -27,7 +27,8 @@
       <div class="server-row">
         <span id="status-dot" class="dot"></span>
         <input id="server-url" type="text" class="server-input"
-               placeholder="http://localhost:8000" spellcheck="false">
+               placeholder="http://localhost:8000" spellcheck="false"
+               onkeydown="if(event.key==='Enter')connectToServer()">
         <button class="icon-btn" onclick="connectToServer()" title="连接">↻</button>
       </div>
     </div>

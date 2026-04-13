@@ -1,6 +1,6 @@
 {
   "name": "whisper-remote",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "实时双语字幕客户端",
   "main": "main.js",
   "scripts": {
